@@ -1,6 +1,6 @@
 import React from "react";
 import './topbar.css';
-import logo from "./CAS Logo.png";
+// import logo from "./CAS Logo.png";
 // import About from "../../pages/About/About";
 
 const Topbar =()=>{
@@ -9,7 +9,7 @@ const Topbar =()=>{
      <div className="topbar">
        <div>
        </div>
-      <img  classname="logo" src={logo} alt="logo"/>
+      {/* <img  classname="logo" src={logo} alt="logo"/> */}
       <div className="rightside">
        <input type="checkbox" id="toggle_button" className="toggle_button">
        </input>

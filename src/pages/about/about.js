@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import logo from '../../components/topbar/CAS Logo.png'
+// import logo from '../../components/topbar/CAS Logo.png'
 
 function About() {
   return (
@@ -15,7 +15,7 @@ function About() {
          </p>
        </div>
       <div>
-         <img className="img" src={logo} alt='CAS-logo'></img>
+         {/* <img className="img" src={logo} alt='CAS-logo'></img> */}
       </div>
      
       </div>

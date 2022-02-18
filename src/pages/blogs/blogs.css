@@ -1,11 +1,13 @@
 .blogs{
   margin-top: 3rem;
 }
-.heading{
+.blog_heading{
   font-size: 2rem;
+  padding: 1rem 01rem 0rem ;
   position: relative;
+  width: fit-content;
 }
-.heading::after{
+.blog_heading::after{
   content: " ";
   display: inline-flex;
   justify-content: center;

@@ -4,7 +4,7 @@ import './blogs.css'
 function blogs() {
   return <div>
      <div className="blogs">
-     <h1 className="heading">Blogs of CAS</h1>
+     <h1 className="blog_heading">Blogs of CAS</h1>
    </div>
   </div>;
 }
