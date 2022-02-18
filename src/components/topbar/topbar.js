@@ -18,6 +18,7 @@ const Topbar =()=>{
          <a href="/About">ABOUT</a>
          <a href="/Blogs">BLOGS</a>
          <a href="/Contact">CONTACT</a>
+         <a href="/Apply">REGISTER</a>
          
        </nav>
        <label for="toggle_button" className="toggle_button_label">

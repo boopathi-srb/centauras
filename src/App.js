@@ -3,20 +3,17 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import {Routes} from 'react-router-dom';
 import './App.css'
 import Home from './pages/home/home';
-import ProductData from './data';
+// import ProductData from './data';
 import { Component } from 'react';
 import Footer from './components/footer/footer';
 import About from './pages/about/about';
 import Contact  from './pages/contact/contact';
 import Blogs from './pages/blogs/blogs';
-// import Orderplaced from './pages/Orderplaced/orderplaced';
+import Apply from './pages/apply/apply'
+import Applied from './pages/applied/applied';
 
 
 class App extends Component {
-  
-  state={
-    productData: ProductData,
-  }
   render(){
   return (
     <div className="App">
@@ -31,21 +28,15 @@ class App extends Component {
          <Route path="/About" element={ <About/>} exact></Route>
          <Route path="/Contact" element={ <Contact/>} exact></Route>
          <Route path="/Blogs" element={ <Blogs/>} exact></Route>
-         {/* <Route path="/orderplaced" element={ <Orderplaced/>} exact></Route> */}
+         <Route path="/Apply" element={ <Apply/>} exact></Route>
+         <Route path="/Applied" element={ <Applied/>} exact></Route>
          
        </Routes>
       </div>
       <footer className="footer">
          <Footer/>
       </footer>
-        
       </Router>
-        
-       
-       
-        
-
-    
     </div>
   );
   

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+.apply{
+  margin-bottom: 3rem;
+}
+.apply_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content{
+  margin-bottom: 4rem;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50vw;
+  margin: auto;
+  gap: 2rem;
+  font-family: 'Jost', sans-serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 30px #000000;
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 3rem;
+}
+.form div{
+  display: grid;
+}
+.form div:nth-child(12) button{
+  width: 10ch;
+  margin: auto;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  font-family: 'Jost', sans-serif;
+  border-radius: 1rem;
+}
+.form div:nth-child(12) button:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.form div:nth-child(11) textarea{
+  width: 50vw;
+  height: fit-content;
+  border: none;
+  font-family: 'Jost', cursive;
+  border-bottom: 1px solid black;
+  outline: none;
+  resize: none;
+}
+.form div input, select{
+  border: none;
+  width: 50vw;
+  margin-top: 1rem;
+  background: none;
+  font-family: 'Poppins', cursive;
+  outline: none;
+  overflow: wrap;
+  border-bottom: 1px solid black;
+}
+
+.selection:focus option:first-of-type {
+  display: none;
+}
+@media screen and (max-width:768px) {
+  .form{
+    width: 60vw;
+    /* padding: 1.5rem; */
+  }
+  .form div input, select, textarea{
+    width: 60vw;
+  }
+  .form div:nth-child(10) textarea{
+    width: 60vw;
+  }
+}
