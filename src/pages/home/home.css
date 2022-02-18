@@ -1,0 +1,15 @@
+.Home{
+  /* display:grid; */
+  width: 100vw;
+  margin-bottom: 50px;
+}
+.flyer{
+  width: 100vw;
+  height: 90vh;
+}
+
+@media only screen and (max-width:768px){
+  .flyer{
+    height: 45vh;
+  }
+}

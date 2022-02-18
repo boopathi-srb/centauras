@@ -1,0 +1,25 @@
+.blogs{
+  margin-top: 3rem;
+}
+.heading{
+  font-size: 2rem;
+  position: relative;
+}
+.heading::after{
+  content: " ";
+  display: inline-flex;
+  justify-content: center;
+  height: 5px;
+  width: 50%;
+  border-radius: 5%;
+  background-color: black;
+  position: absolute;
+  top: 100%;
+  left:25%;
+  animation: animate 3s ease-in-out infinite;
+}
+@keyframes animate {
+  0%{transform:scale(0%)}
+  50%{transform: scale(100%);}
+  100%{transform: scale(0%);}
+}

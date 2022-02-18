@@ -1,25 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import Topbar from './components/topbar/topbar';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {Routes} from 'react-router-dom';
+import './App.css'
+import Home from './pages/home/home';
+import ProductData from './data';
+import { Component } from 'react';
+import Footer from './components/footer/footer';
+import About from './pages/about/about';
+import Contact  from './pages/contact/contact';
+import Blogs from './pages/blogs/blogs';
+// import Orderplaced from './pages/Orderplaced/orderplaced';
 
-function App() {
+
+class App extends Component {
+  
+  state={
+    productData: ProductData,
+  }
+  render(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <Router>
+      <header>
+        <Topbar/>
       </header>
+      <div className="body">
+      <Routes>
+         
+         <Route path="/" element={<Home/>} exact></Route>
+         <Route path="/About" element={ <About/>} exact></Route>
+         <Route path="/Contact" element={ <Contact/>} exact></Route>
+         <Route path="/Blogs" element={ <Blogs/>} exact></Route>
+         {/* <Route path="/orderplaced" element={ <Orderplaced/>} exact></Route> */}
+         
+       </Routes>
+      </div>
+      <footer className="footer">
+         <Footer/>
+      </footer>
+        
+      </Router>
+        
+       
+       
+        
+
+    
     </div>
   );
+  
+}
 }
 
 export default App;
