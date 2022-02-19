@@ -1,5 +1,5 @@
 import React from 'react'
-import './about.css'
+import './team.css'
 // import logo from '../../components/topbar/CAS Logo.png'
 
 function About() {

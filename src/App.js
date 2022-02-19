@@ -6,7 +6,7 @@ import Home from './pages/home/home';
 // import ProductData from './data';
 import { Component } from 'react';
 import Footer from './components/footer/footer';
-import About from './pages/about/about';
+import Team from './pages/team/team';
 import Contact  from './pages/contact/contact';
 import Blogs from './pages/blogs/blogs';
 import Apply from './pages/apply/apply'
@@ -25,7 +25,7 @@ class App extends Component {
       <Routes>
          
          <Route path="/" element={<Home/>} exact></Route>
-         <Route path="/About" element={ <About/>} exact></Route>
+         <Route path="/Team" element={ <Team/>} exact></Route>
          <Route path="/Contact" element={ <Contact/>} exact></Route>
          <Route path="/Blogs" element={ <Blogs/>} exact></Route>
          <Route path="/Apply" element={ <Apply/>} exact></Route>

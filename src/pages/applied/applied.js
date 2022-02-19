@@ -2,6 +2,7 @@ import React from 'react';
 import thumbsup from './thumbsup.png'
 import './applied.css'
 import AOS from 'aos';
+
 function Applied() {
   AOS.init();
   return <div  className="applied">

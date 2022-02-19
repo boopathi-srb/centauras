@@ -1,12 +1,13 @@
 .topbar{
   display: flex;
-  background: hsl(0, 0%, 0% );
+  background: rgb(255, 255, 255);
   width: 100vw;
   height: 9vh;
   text-align: right;
   align-items: right;
   justify-content: space-between;
   position: fixed;
+  border-bottom: 3px solid black;
 }
 .topbar>img{
   max-width: 45px;
@@ -37,7 +38,8 @@
   font-size: 1.0rem;
   font-weight: 400;
   text-decoration: none;
-  color:  white;
+  color: white;
+  font-weight: 700;
   padding: 0.2em;
   border-radius: 10%;
 }
@@ -55,7 +57,7 @@
   height: 21px;
   border-radius: 5px;
   border: none;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   display: none;
 }
 
@@ -88,11 +90,13 @@
     flex-direction: row;
     align-items: flex-end;
     padding: 0.3rem 1rem 0.3rem;
+    
   }
   .topbar_div>img{
     width: 01rem;
     height: 1rem;
     margin: auto;
+    padding-bottom: 0.2rem;
   }
   .topbar_links_wrapper2{
     width: 100vw;
@@ -100,7 +104,7 @@
     flex-direction: column;
     padding-top: 4rem;
     background: rgba(17, 17, 17, 0.2);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     border-radius: 0px 0px 10px 10px;
   } 
   .topbar_links_wrapper2{
@@ -136,7 +140,7 @@
   .toggle_button_label span::after,
   .toggle_button_label span::before{
     display: block;
-    background:white;
+    background:rgb(0, 0, 0);
     width: 1.5em;
     height: 0.2em;
     border-radius: 2px;
@@ -169,7 +173,7 @@
   }
   .toggle_button:checked ~  .toggle_button_label p{
     visibility: visible;
-    color: white;
+    color: rgb(0, 0, 0);
     position: absolute;
     top: -22%;
     left: -0%;

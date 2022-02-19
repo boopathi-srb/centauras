@@ -1,6 +1,5 @@
 import React from 'react';
 import './footer.css'
-// import CallIcon from '../footer/Call Icon.png'
 import LocationIcon from '../footer/locationicon.png'
 // import logo from './instagram.png'
 import AOS from 'aos';
