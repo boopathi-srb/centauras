@@ -1,22 +1,22 @@
 .topbar{
   display: flex;
   background: hsl(0, 0%, 0% );
-  backdrop-filter: blur(1rem);
   width: 100vw;
-  height: 8vh;
+  height: 9vh;
   text-align: right;
   align-items: right;
   justify-content: space-between;
-  /* z-index: 999; */
   position: fixed;
 }
 .topbar>img{
-  max-width: 60px;
+  max-width: 45px;
   align-items: left;
+  justify-content: left;
   position:absolute;
-  left: 2%;
-  top: -2;
-  margin: auto;
+  left: 10%;
+  top: 3px;
+  margin: 5px 5px;
+  z-index: 99;
 }
 .rightside{
   display: flex;
@@ -24,20 +24,24 @@
   align-items: center;
   margin-right: 30px;
 }
-.topbar_links a {
+.topbar_links{
+  visibility: collapse;
+  width: 0;
+}
+.topbar_links_wrapper1, .topbar_links_wrapper2 a {
   list-style: none;
   display: inline-flex;
   justify-content: space-between;
   text-decoration: none;
   margin: 1rem ;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   font-weight: 400;
   text-decoration: none;
   color:  white;
   padding: 0.2em;
   border-radius: 10%;
 }
-.topbar_links a:hover{
+.topbar_links_wrapper1 a:hover{
    opacity: 0.8;
 }
 .toggle_button {
@@ -58,57 +62,64 @@
 
 @media only screen and (max-width:768px){
   .topbar>img{
-    max-width: 60px;
+    max-width: 40px;
     left: 5%;
+    top:6.54px;
   }
   .topbar{
     min-height: 60px;
   }
   nav {
-    background:black;
-    backdrop-filter: blur(100em);
     position: absolute;
-    top: 30%;
+    top: 0%;
     left: 0;
     margin: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: max-content;
-    margin-top: 40px;
-    border-radius: 0px 0px 10px 10px;
-    padding: 10px;
+    height: fit-content;
     text-align: left;  
     transform: scale(0,0);
     transform-origin: top;
     transition: transform 300ms ease-in-out;
-    z-index: 999;
   }
-  .topbar_links{
-    width: 95.5%;
-    /* text-align: right; */
-  }
-  .topbar_links> a {
-    text-decoration: none;
+  .topbar_div{
     display: flex;
-    font-size: 0.9rem;
-    font-weight: 600;
-    width: 100%;
-    margin: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 7px 0px;
-    
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0.3rem 1rem 0.3rem;
   }
-  .topbar_links a:nth-child(4){
-    padding: 0.5rem 0rem;
-   }
+  .topbar_div>img{
+    width: 01rem;
+    height: 1rem;
+    margin: auto;
+  }
+  .topbar_links_wrapper2{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    background: rgba(17, 17, 17, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 10px 10px;
+  } 
+  .topbar_links_wrapper2{
+    /* text-align: left; */
+    display: flex;
+    align-items: flex-end;
+    flex-direction:column;
+  }
   .toggle_button:checked ~ nav{
     transform: scale(1,1);
-    z-index: 0;
+    z-index: 90;
   }
- 
+  .toggle_button:checked ~ .topbar_links{
+     visibility: visible;
+  }
+ .topbar_links_wrapper1{
+    visibility: collapse;
+    width: 0;
+  }
   .toggle_button_label{
     position: absolute;
     top: 0;
@@ -143,6 +154,11 @@
   .toggle_button_label span::after{
     top: 7px;
   }
+  .toggle_button:checked ~ .topbar{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
   .toggle_button:checked ~  .toggle_button_label span{
     visibility: hidden;
     animation: hamburgerX 500ms ease-in ;
@@ -155,11 +171,12 @@
     visibility: visible;
     color: white;
     position: absolute;
-    top: -12%;
-    left: -50%;
+    top: -22%;
+    left: -0%;
     font-size: 1.5em;
     font-weight: 600;
     animation: hamburgerX 500ms ease-in;
+    z-index: 98;
   }
   @keyframes hamburgerX {
     0%{transform: scale3d(0,0,0);}

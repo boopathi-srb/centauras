@@ -1,6 +1,11 @@
 import React from "react";
 import './topbar.css';
-// import logo from "./CAS Logo.png";
+import logo from "./CAS LogoNT.png";
+import homeicon from './home icon.png';
+import abouticon from './about icon.png';
+import blogicon from './blog icon.png';
+import contacticon from './contact icon.png';
+import applyicon from './apply icon.png';
 // import About from "../../pages/About/About";
 
 const Topbar =()=>{
@@ -9,17 +14,40 @@ const Topbar =()=>{
      <div className="topbar">
        <div>
        </div>
-      {/* <img  classname="logo" src={logo} alt="logo"/> */}
+      <img  classname="logo" src={logo} alt="logo"/>
       <div className="rightside">
        <input type="checkbox" id="toggle_button" className="toggle_button">
        </input>
+       <div className="topbar_links_wrapper1">
+           <a href="/">HOME</a>
+           <a href="/About">ABOUT</a>
+           <a href="/Blogs">BLOGS</a>
+           <a href="/Contact">CONTACT</a>
+           <a href="/Apply">REGISTER</a> 
+        </div>
        <nav className="topbar_links" >
-         <a href="/">HOME</a>
-         <a href="/About">ABOUT</a>
-         <a href="/Blogs">BLOGS</a>
-         <a href="/Contact">CONTACT</a>
-         <a href="/Apply">REGISTER</a>
-         
+         <div className="topbar_links_wrapper2">
+           <div className="topbar_div">
+             <a href="/">HOME</a>
+             <img src={homeicon} alt="homeicon"></img>
+           </div>
+           <div className="topbar_div">
+             <a href="/About">ABOUT</a>
+             <img src={abouticon} alt="abouticon"></img>
+           </div>
+           <div className="topbar_div">
+             <a href="/Blogs">BLOGS</a>
+             <img src={blogicon} alt="blogicon"></img>
+           </div>
+           <div className="topbar_div">
+             <a href="/Contact">CONTACT</a>
+             <img src={contacticon} alt="contacticon"></img>
+           </div>
+           <div className="topbar_div">
+             <a href="/Apply">REGISTER</a>
+             <img src={applyicon} alt="applyicon"></img>
+           </div>
+          </div>
        </nav>
        <label for="toggle_button" className="toggle_button_label">
          <span></span>
