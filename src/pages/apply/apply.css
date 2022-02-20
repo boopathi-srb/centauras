@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 .apply{
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  background-color: black;
+  color: white;
 }
 .apply_wrapper{
   display: flex;

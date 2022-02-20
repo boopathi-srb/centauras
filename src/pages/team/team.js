@@ -1,31 +1,34 @@
 import React from 'react'
 import './team.css'
-// import team from '../../data';
-// import logo from '../../components/topbar/CAS Logo.png'
+import linkedin from '../../icons/linkedin.png'
+import instagram from '../../icons/instagram.png'
+import github from '../../icons/github.png'
+import AOS from 'aos';
+import "aos/dist/aos.css"
 
 function About(props) {
-
+  AOS.init({
+    duration: 1000,
+  });
   const Team=props.data.team.map((item,pos)=>{
     return(
       <div className="team_wrapper">
-      <div className="team_card">
-       <div className="image_wrapper">
-           <img key={pos} src={item.image} alt={item.Name}/>
-       </div>
-       <div>
+      <div className="team_card" data-aos="zoom-out"data-aos-once="true"  data-aos-delay="400">
+       <img key={pos} src={item.image} alt={item.Name}/>
+       <div className="content_outerwrapper">
          <div className="content_wrapper">
-           <h2>{item.Name}</h2>
-           <h4>{item.Position}</h4>
+           <h3>{item.Name}</h3>
+           <h5>{item.Position}</h5>
          </div>
          <div className="icon_wrapper">
            <a href={item.linkedin}>
-             <img key={pos} src={item.linkedin} alt="linkedIn_icon"/>
+             <img key={pos} src={linkedin} alt="linkedIn_icon"/>
            </a>
            <a href={item.instgram}>
-             <img key={pos} src={item.instgram} alt="instagram_icon"/>
+             <img key={pos} src={instagram} alt="instagram_icon"/>
            </a>
            <a href={item.github}>
-             <img key={pos} src={item.github} alt="github_icon"/>
+             <img key={pos} src={github} alt="github_icon"/>
            </a>
          </div>
        </div>
@@ -37,17 +40,17 @@ function About(props) {
   return (
     <div className="team">
       <div className="team_wrapper">
-        <div className="contentwrapper">
+        <div className="contentwrapper" data-aos="zoom-out"data-aos-once="true"  data-aos-delay="400">
           <h1 className="heading">Team CAS-GCT</h1>
           <div className="content">
             <p >
              The performance of any club depends on the team members.<br/>
-             The team members below are the pilots of each part of this CAS-GCT drone.
+             The team members below are the pilots of this CAS-GCT drone.
            </p>
           </div>
        </div>
       </div>
-      <div className="taem_cardwrapper">
+      <div className="team_cardwrapper">
         {Team}
       </div>
     </div>

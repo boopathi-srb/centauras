@@ -8,12 +8,9 @@
 }
 .body{
   min-height: 68vh;
-  margin-top: 70px;
-  /* margin-bottom: 3ch; */
+  margin-top: 8vh;
   max-width: 100vw;
   overflow-x: hidden;
-  /* color: white; */
-  /* background-color: black; */
   font-family: 'Jost', sans-serif;
 }
 header{
@@ -32,7 +29,7 @@ footer{
   width: 100vw;
   bottom: 0%;
   padding: 0%;
-  margin-bottom: 0%;
+  margin-bottom: 02%;
   font-family: 'Jost', sans-serif;
 }
 @media screen and (max-width:768px) {

@@ -1,6 +1,7 @@
 .footer{
   width: 100vw;
   height: 50vw;
+  /* margin-bottom: 5%; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -13,7 +14,6 @@
 }
 .footer_wrapper1, .footer_wrapper2, .footer_wrapper3{
   border-radius: 10px;
-   backdrop-filter: blur(2em);
    display: inline-flex;
    flex-direction: column;
    align-items: center;

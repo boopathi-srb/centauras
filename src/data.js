@@ -1,4 +1,4 @@
-import Rathinaboopathi from './team photos/boopathi.jpeg'
+import Rathinaboopathi from './team photos/boopathi.jpg'
 
 
 
@@ -9,92 +9,92 @@ const Data= {
   
   team: [
       {
-          Name: 'Rathina Boopathi',
+          Name: 'Rathina Boopathi S',
           Position: 'Web pilot',
           image: Rathinaboopathi
       },
       {
-        Name: 'Rathina Boopathi',
+        Name: 'Rathina Boopathi S',
         Position: 'Web pilot',
         image: Rathinaboopathi
     },
     {
-      Name: 'Rathina Boopathi',
+      Name: 'Rathina Boopathi S',
       Position: 'Web pilot',
       image: Rathinaboopathi
   },
   {
-    Name: 'Rathina Boopathi',
+    Name: 'Rathina Boopathi S',
     Position: 'Web pilot',
     image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },
 {
-  Name: 'Rathina Boopathi',
+  Name: 'Rathina Boopathi S',
   Position: 'Web pilot',
   image: Rathinaboopathi
 },

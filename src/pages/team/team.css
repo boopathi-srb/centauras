@@ -4,6 +4,7 @@
 }
 .team_wrapper{
   width: 100vw;
+  margin: auto;
 }
 .contentwrapper{
   width: 80vw;
@@ -26,9 +27,8 @@
   left: 25%;
   margin-bottom: 1rem;
 }
-.content{
+.content>p{
   margin: auto;
-  width: 80vw;
   margin-top: 2rem;
   align-items: center;
   text-align: center;
@@ -40,27 +40,66 @@
 /* card styles */
 
 .team_card{
-  /* width: 40ch; */
+  width: 40ch;
   display: flex;
-  /* flex-direction: column; */
-  padding: 1rem;
+  gap: 1.2rem;
+  padding: 1rem 0.7rem;
+  justify-content: space-around;
   border-radius: 2rem;
-  box-shadow: -10px 20px 20px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.5); */
   backdrop-filter: blur(10px);
   margin: auto;
 }
-.image_wrapper>img{
+.image_wrapper{
+  margin: auto;
+}
+.team_card>img{
   width: 20ch;
+  margin: auto;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 5px 0px;
 }
 .team_wrapper{
   width: fit-content;
+}
+.content_outerwrapper{
+  margin: 0px 6px;
+}
+.content_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+.content_wrapper>h5{
+  margin-top: 0%;
+}
+.icon_wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+}
+.icon_wrapper>a>img{
+ width: 2ch;
+ height: 2ch;
 }
 
 
 .team_cardwrapper{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  gap: 2rem;
-  width: 80vw;
+  justify-content: space-between;
+  gap: 4rem;
+  width: 90vw;
+  margin: auto;
+}
+
+/*  mobile view*/
+@media screen and (max-width:768px) {
+  .team_card{
+    width: 21ch;
+    flex-direction: column;
+  }
 }

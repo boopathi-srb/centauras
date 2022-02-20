@@ -12,12 +12,13 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  gap: 2rem;
   justify-items: center;
   justify-content: space-evenly;
   margin: 3rem 0rem;
 }
 .titleheading_wrapper{
-  width: 60vw;
+  width: 40vw;
 }
 .titleheading_wrapper{
   text-align: left;
@@ -127,3 +128,11 @@
   width: 40ch;
 
 }
+
+/* Mobile view */
+@media screen and (max-width:768px){
+  .titleheading_wrapper{
+    width: 60vw;
+  }
+}
+  
