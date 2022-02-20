@@ -1,10 +1,10 @@
 .Home{
   /* display:grid; */
   width: 100vw;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 0rem;
   align-items: center;
 }
 .title_wrapper{
@@ -28,105 +28,102 @@
 .titleimg_wrapper>img{
   width: 30ch;
 }
-.home_outerwrapper{
-  /* width: 80vw; */
-  border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
 
-}
-.home_wrapper{
-  width: 100vw;
-  padding: 2rem;
-  background: rgb(238, 235, 235);
-  backdrop-filter: blur(15px);
-  border-radius: 1rem;
-}
-
-.home_wrapper>h1{
+/* home headings style */
+.home_headings1, .home_headings2{
   position: relative;
   width: fit-content;
   margin: auto;
   margin-bottom: 3rem;
 }
-.home_wrapper>h1::after{
+.home_headings1::after{
   content: " ";
-  display: inline-flex;
-  justify-content: center;
-  height: 5px;
-  width: 40%;
-  border-radius: 5%;
+  height: 3px;
   background-color: white;
+  width: 50%;
   position: absolute;
-  top: 100%;
-  left:25%;
-  animation: animate 3s ease-in-out infinite;
+  bottom: -10%;
+  left: 25%;
 }
-@keyframes animate {
-  0%{transform:scale(0%)}
-  50%{transform: scale(100%);}
-  100%{transform: scale(0%);}
+.home_headings2::after{
+  content: " ";
+  height: 3px;
+  background-color: black;
+  width: 50%;
+  position: absolute;
+  bottom: -10%;
+  left: 25%;
 }
-.home_innerwrapper{
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  flex: 1 1 30%;
-  gap: 3rem;
+
+/*our motto styles*/
+.home_outerwrapper1{
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+.home_wrapper1{
   width: 80vw;
   margin: auto;
-  justify-content: space-evenly;
-  padding-top: 1rem;
+  padding: 2rem 0rem;
+}
+.home_innerwrapper1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.home_innerwrapper1_child{
+  width: 30ch;
+  margin: auto;
+}
+
+/* what we do here styles */
+.home_outerwrapper2{
+  width: 100vw;
+  background-color: white;
+  color:black;
+}
+.home_wrapper2{
+  width: 70vw;
+  margin: auto;
+  padding: 2rem 0rem;
 }
 .home_innerwrapper2{
   display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.home_innerwrapper2_child{
+  display: flex;
   flex-direction: column;
-  gap: rem;
+  align-items: flex-start;
+  text-align: left;
+  width: 30ch;
+  height: 15ch;
+}
+.home_innerwrapper2_child>img{
+  width: 5ch;
+  height: 5ch;
+}
+
+/* vision and mission styles */
+.home_outerwrapper3{
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+.home_wrapper3{
+  width: 80vw;
+  margin: auto;
+  padding: 2rem 0rem;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 3rem;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: flex-start;
-  
 }
-.home_innerwrapper2>p{
-  width: 25ch;
-  text-align: left;
-  height: 10ch;
-}
-.home_innerwrapper2>img{
-  width: 3ch;
-  height: 3ch;
-}
-.home_innerwrapper1>p{
-  width: 25ch;
-  text-align: center;
-  margin: auto;
-  margin-top: 2rem;
-}
-.home_innerwrapper1>h4{
-  position: relative;
-  width: fit-content;
-  margin: auto;
-}
-.home_innerwrapper1>h4::after{
-  content: " ";
-  display: inline-flex;
-  justify-content: center;
-  height: 2px;
-  width: 50%;
-  border-radius: 5%;
-  background-color: white;
-  position: absolute;
-  top: 100%;
-  left:25%;
-}
-.vision{
-  width: 80vw;
-  text-align: center;
-  margin: auto;
-}
-@media only screen and (max-width:768px){
-  .flyer{
-    height: 45vh;
-  }
+.home_innerwrapper3{
+  width: 40ch;
+
 }

@@ -182,11 +182,11 @@
   .toggle_button_label span::after{
     top: 7px;
   }
-  .toggle_button:checked ~ .topbar{
+  /* .toggle_button:checked ~ .topbar{
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(15px);
-  }
+  } */
   .toggle_button:checked ~  .toggle_button_label span{
     visibility: hidden;
     animation: hamburgerX 500ms ease-in ;

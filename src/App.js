@@ -11,9 +11,14 @@ import Contact  from './pages/contact/contact';
 import Blogs from './pages/blogs/blogs';
 import Apply from './pages/apply/apply'
 import Applied from './pages/applied/applied';
+import Data from './data';
 
 
 class App extends Component {
+  
+    state={
+      teamData: Data,
+    }
   render(){
   return (
     <div className="App">
@@ -25,7 +30,7 @@ class App extends Component {
       <Routes>
          
          <Route path="/" element={<Home/>} exact></Route>
-         <Route path="/Team" element={ <Team/>} exact></Route>
+         <Route path="/Team" element={ <Team data={this.state.teamData}/>} exact></Route>
          <Route path="/Contact" element={ <Contact/>} exact></Route>
          <Route path="/Blogs" element={ <Blogs/>} exact></Route>
          <Route path="/Apply" element={ <Apply/>} exact></Route>
