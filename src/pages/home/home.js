@@ -45,27 +45,27 @@ const Home=(props)=> {
         </h1>
         <div className="home_innerwrapper" >
           <div className="home_innerwrapper1">
-           <h4>
+           <h5>
              EDUCATE
-           </h4>
+           </h5>
            <p>
            To educate the students on various disciplines related to aerospace and its subsidiaries.
             And also to get familiarized with diverse industrial cultures by interacting with the industrial people.
            </p>
           </div>
           <div className="home_innerwrapper1">
-           <h4>
+           <h5>
              INNOVATE
-           </h4>
+           </h5>
            <p>
            To apply the bleeding edge technology in the aerospace field to make 
            life easier and to design new products in a creative way which will yield more benefits to the whole world.
            </p>
           </div>
           <div className="home_innerwrapper1">
-           <h4>
+           <h5>
              AVIATE
-           </h4>
+           </h5>
            <p>
            To develop an aerial vehicle which can 
            fly, be easy to maneuver and can 
