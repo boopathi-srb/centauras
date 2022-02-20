@@ -9,6 +9,7 @@
   z-index: 90;
   position: relative;
   background-color: white;
+  /* border-top: 2px solid black; */
 }
 .footer_wrapper1, .footer_wrapper2, .footer_wrapper3{
   border-radius: 10px;

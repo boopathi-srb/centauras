@@ -1,7 +1,13 @@
 import React from 'react'
-import flyer from './flyer.png';
+import logo from '../../components/topbar/CAS LogoNT.png';
 import './home.css';
 import AOS from 'aos';
+import seminaricon from '../../icons/seminar.png'
+import workshopicon from '../../icons/workshop.png'
+import researchicon from '../../icons/research.png'
+import competitionicon from '../../icons/competition.png'
+import designicon from '../../icons/design.png'
+import scrutinizeicon from '../../icons/scrutinize.png'
 
 
 const Home=(props)=> {
@@ -11,35 +17,71 @@ const Home=(props)=> {
    
   return (
     <div className="Home">
-      <div data-aos="zoom-in-up" data-aos-once="true" >
-        <img className="flyer" src={flyer} alt='BnT-flyer'></img>
+      <div  className="title_wrapper" data-aos="zoom-in-up" data-aos-once="true" >
+        <div className="titleheading_wrapper">
+          <h1>
+            Centauras Aerospace Society
+          </h1>
+          <h3>
+            Government College of Technology,<br/>Coimbatore.
+          </h3>
+        </div>
+        <div className="titleimg_wrapper">
+          <img src={logo} alt="logo"></img>
+        </div>
       </div>
+      <div className="home_outerwrapper">
       <div className="home_wrapper">
        <h1  data-aos="zoom-in-up" data-aos-once="true" className="home_headings">
          What we do here?
        </h1>
        <div className="home_innerwrapper">
-        <p  data-aos="zoom-in-up" data-aos-once="true">
-          Enhance knowledge about various disciplines through seminars conducted by experts.
-        </p>
-        <p  data-aos="zoom-in-up" data-aos-once="true">
-          Conduct workshops related to aerospace to share the knowledge with the society.
-        </p>
-        <p  data-aos="zoom-in-up" data-aos-once="true">
-          Design and develop projects in the aerospace field.
-        </p>
-        <p  data-aos="zoom-in-up" data-aos-once="true">
-          Conduct competition to promote interest among learners about innovation.
-        </p>
-        <p>
-          Scrutinize the technical commodities in UAV.
-        </p>
-        <p>
-          Encourage scientific research on aerial technology.
-        </p>
+         <div className="home_innerwrapper2">
+           <img src={seminaricon} alt="seminaricon"/>
+           <p  data-aos="zoom-in-up" data-aos-once="true">
+             Enhance knowledge about various disciplines through seminars conducted by experts.
+           </p>
+         </div>
+         <div className="home_innerwrapper2">
+           <img src={workshopicon} alt="workshopicon"/>
+           <p  data-aos="zoom-in-up" data-aos-once="true">
+             Conduct workshops related to aerospace to share the knowledge with the society.
+           </p>
+         </div>
+         <div className="home_innerwrapper2">
+           <img src={designicon} alt="designicon"/>
+           <p  data-aos="zoom-in-up" data-aos-once="true">
+              Design and develop projects in the aerospace field.
+           </p>
+         </div>
+         <div className="home_innerwrapper2">
+           <img src={competitionicon} alt="competitionicon"/>
+           <p  data-aos="zoom-in-up" data-aos-once="true">
+              Conduct competition to promote interest among learners about innovation.
+           </p>
+         </div>
+         <div className="home_innerwrapper2">
+           <img src={scrutinizeicon} alt="scrutinizeicon"/>
+           <p>
+              Scrutinize the technical commodities in UAV.
+           </p>
+         </div>
+         <div className="home_innerwrapper2">
+           <img src={researchicon} alt="researchicon"/>
+           <p>
+              Encourage scientific research on aerial technology.
+           </p>
+         </div>
+       
+       
+       
+        
+       
        </div>
       </div>
-      <div className="home_wrapper">
+      </div>
+      <div className="home_outerwrapper1">
+      <div className="home_wrapper1">
         <h1 className="home_headings">
           Our Motto
         </h1>
@@ -74,6 +116,8 @@ const Home=(props)=> {
           </div>
         </div>
       </div>
+      </div>  
+      <div className="home_outerwrapper">
       <div className="home_wrapper">
         <h1 className="home_headings">
           Vision
@@ -83,6 +127,8 @@ const Home=(props)=> {
          betterment and benefit of mankind.
         </p>
       </div>
+      </div>
+      <div className="home_outerwrapper">
       <div className="home_wrapper">
         <h1 className="home_headings">
           Mission
@@ -92,6 +138,9 @@ const Home=(props)=> {
         it through attending various competitions.
         </p>
       </div>
+      </div>
+
+      
     </div>
      
   );
