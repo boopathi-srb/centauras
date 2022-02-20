@@ -1,8 +1,8 @@
 import React from 'react';
 import './footer.css'
 import LocationIcon from '../footer/locationicon.png'
-// import logo from './instagram.png'
 import AOS from 'aos';
+
 const Footer = () => {
   AOS.init();
   return (
@@ -11,8 +11,10 @@ const Footer = () => {
         <h3 className="footer_heading">Useful links</h3>
         <div className="footer_links" >
          <a href="/">Home</a>
-         <a href="/About">About</a>
+         <a href="/Team">Team</a>
+         <a href="/Blogs">Blogs</a>
          <a href="/Contact">Contact</a>
+         <a href="/Apply">Register</a>
         </div>
       </div>
       <div  data-aos="zoom-in"data-aos-once="true" data-aos-offset="50px" className="footer_wrapper2">

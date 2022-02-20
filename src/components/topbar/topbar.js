@@ -12,9 +12,10 @@ const Topbar =()=>{
   return(
     <div>
      <div className="topbar">
-       <div>
+       <div className="logo_wrapper">
+          <img  classname="logo" src={logo} alt="logo"/>  
        </div>
-      <img  classname="logo" src={logo} alt="logo"/>
+      
       <div className="rightside">
        <input type="checkbox" id="toggle_button" className="toggle_button">
        </input>

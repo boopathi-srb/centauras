@@ -9,14 +9,20 @@
   position: fixed;
   border-bottom: 3px solid black;
 }
-.topbar>img{
-  max-width: 45px;
+.logo_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 10%;
+  top: 50%;
+  width: fit-content;
+}
+.logo_wrapper>img{
+  width: 50px;
   align-items: left;
   justify-content: left;
   position:absolute;
   left: 10%;
-  top: 3px;
-  margin: 5px 5px;
   z-index: 99;
 }
 .rightside{
@@ -29,8 +35,11 @@
   visibility: collapse;
   width: 0;
 }
-.topbar_links_wrapper1, .topbar_links_wrapper2 a {
-  list-style: none;
+.topbar_links_wrapper1{
+  margin-right: 4rem;
+}
+
+.topbar_links_wrapper1>a{
   display: inline-flex;
   justify-content: space-between;
   text-decoration: none;
@@ -38,7 +47,7 @@
   font-size: 1.0rem;
   font-weight: 400;
   text-decoration: none;
-  color: white;
+  color:black;
   font-weight: 700;
   padding: 0.2em;
   border-radius: 10%;
@@ -60,16 +69,31 @@
   background-color: rgb(0, 0, 0);
   display: none;
 }
-
+.toggle_button_label>p{
+  visibility: collapse;
+}
 
 @media only screen and (max-width:768px){
-  .topbar>img{
-    max-width: 40px;
+  .logo_wrapper>img{
+    max-width: 50px;
     left: 5%;
-    top:6.54px;
+    top: 12%;
   }
   .topbar{
     min-height: 60px;
+  }
+  .topbar_div>a {
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 1rem ;
+    font-size: 1.0rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 0.2em;
+    border-radius: 10%;
   }
   nav {
     position: absolute;
@@ -133,7 +157,7 @@
     display: flex;
     align-items: center;
   }
-  .toggle_button_label p{
+  .toggle_button_label>p{
     visibility: collapse;
   }
   .toggle_button_label span,
@@ -173,10 +197,10 @@
   }
   .toggle_button:checked ~  .toggle_button_label p{
     visibility: visible;
-    color: rgb(0, 0, 0);
+    color: white;
     position: absolute;
     top: -22%;
-    left: -0%;
+    left: 30%;
     font-size: 1.5em;
     font-weight: 600;
     animation: hamburgerX 500ms ease-in;

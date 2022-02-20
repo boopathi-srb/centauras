@@ -2,12 +2,74 @@
   /* display:grid; */
   width: 100vw;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 .flyer{
   width: 100vw;
   height: 90vh;
 }
-
+.home_wrapper>h1{
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.home_wrapper>h1::after{
+  content: " ";
+  display: inline-flex;
+  justify-content: center;
+  height: 5px;
+  width: 40%;
+  border-radius: 5%;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  left:25%;
+  animation: animate 3s ease-in-out infinite;
+}
+@keyframes animate {
+  0%{transform:scale(0%)}
+  50%{transform: scale(100%);}
+  100%{transform: scale(0%);}
+}
+.home_innerwrapper{
+  display:flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.home_innerwrapper>p{
+  width: 25ch;
+  text-align: left;
+}
+.home_innerwrapper1>p{
+  width: 25ch;
+  text-align: left;
+}
+.home_innerwrapper1>h3{
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+.home_innerwrapper1>h3::after{
+  content: " ";
+  display: inline-flex;
+  justify-content: center;
+  height: 2px;
+  width: 50%;
+  border-radius: 5%;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  left:25%;
+}
+.vision{
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+}
 @media only screen and (max-width:768px){
   .flyer{
     height: 45vh;
