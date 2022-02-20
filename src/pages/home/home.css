@@ -48,12 +48,12 @@
   width: 25ch;
   text-align: left;
 }
-.home_innerwrapper1>h3{
+.home_innerwrapper1>h4{
   position: relative;
   width: fit-content;
   margin: auto;
 }
-.home_innerwrapper1>h5::after{
+.home_innerwrapper1>h4::after{
   content: " ";
   display: inline-flex;
   justify-content: center;
