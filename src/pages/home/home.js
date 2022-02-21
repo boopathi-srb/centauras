@@ -105,13 +105,13 @@ const Home=(props)=> {
          </div>
          <div className="home_innerwrapper2_child" >
            <img src={designicon} alt="designicon"  data-aos="zoom-out" data-aos-once="true" />
-           <p  data-aos="zoom-in-up" data-aos-once="true">
+           <p  data-aos="zoom-out" data-aos-once="true">
               Design and develop projects in the aerospace field.
            </p>
          </div>
          <div className="home_innerwrapper2_child"  >
            <img src={competitionicon} alt="competitionicon"  data-aos="zoom-out" data-aos-once="true" />
-           <p  data-aos="zoom-in-up" data-aos-once="true">
+           <p  data-aos="zoom-out" data-aos-once="true">
               Conduct competition to promote interest among learners about innovation.
            </p>
          </div>
