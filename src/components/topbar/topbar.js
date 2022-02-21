@@ -6,9 +6,15 @@ import teamicon from './team icon.png';
 import blogicon from './blog icon.png';
 import contacticon from './contact icon.png';
 import applyicon from './apply icon.png';
+import AOS from 'aos';
+import "aos/dist/aos.css"
 // import About from "../../pages/About/About";
 
 const Topbar =()=>{
+  AOS.init({
+    duration: 1000,
+    offset:50
+  });
   return(
     <div>
      <div className="topbar">
@@ -27,7 +33,7 @@ const Topbar =()=>{
            <a href="/Apply">REGISTER</a> 
         </div>
        <nav className="topbar_links" >
-         <div className="topbar_links_wrapper2">
+         <div className="topbar_links_wrapper2" data-aos="zoom-in-down" data-aos-once="true">
            <div className="topbar_div">
              <a href="/">HOME</a>
              <img src={homeicon} alt="homeicon"></img>

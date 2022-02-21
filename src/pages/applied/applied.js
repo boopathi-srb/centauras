@@ -2,11 +2,12 @@ import React from 'react';
 import thumbsup from './thumbsup.png'
 import './applied.css'
 import AOS from 'aos';
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 
 function Applied() {
   AOS.init({
-    duration:1000
+    duration:1000,
+    offset:50
   });
   return <div  className="applied">
     <div className="overlay" ></div>

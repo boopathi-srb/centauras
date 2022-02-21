@@ -13,7 +13,7 @@ import scrutinizeicon from '../../icons/scrutinize.png'
 
 const Home=(props)=> {
   AOS.init({
-    duration: 500,
+    duration: 1000,
     offset:50
   });
    

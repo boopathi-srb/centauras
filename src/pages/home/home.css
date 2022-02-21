@@ -17,10 +17,11 @@
   margin: 3rem 0rem;
 }
 .titleheading_wrapper{
-  width: 40vw;
   text-align: left;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   flex-wrap: wrap;
   gap: 02rem;
   margin: auto;
@@ -47,6 +48,11 @@
   margin-right: 8px;
   letter-spacing: 1.5px;
   font-size: 2rem;
+}
+.titleimg_wrapper{
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
 }
 .titleimg_wrapper>img{
   width: 30ch;

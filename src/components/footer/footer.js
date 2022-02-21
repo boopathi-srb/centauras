@@ -7,7 +7,7 @@ import "aos/dist/aos.css"
 const Footer = () => {
   AOS.init(
     {
-      duration:500,
+      duration:1000,
       offset:50
     }
   );
