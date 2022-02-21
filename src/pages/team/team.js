@@ -8,7 +8,8 @@ import "aos/dist/aos.css"
 
 function About(props) {
   AOS.init({
-    duration: 500,
+    duration: 1000,
+    offset:100
   });
   const Team=props.data.team.map((item,pos)=>{
     return(

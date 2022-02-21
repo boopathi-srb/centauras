@@ -27,10 +27,11 @@ window.onload=function(){
 
 const Apply=(props)=> {
   AOS.init({
-    duration:1000
+    duration:1000,
+    offset:100
   });
   return <div className="apply">
-      <div className="apply_wrapper" data-aos="zoom-out"data-aos-once="true"  data-aos-delay="400">
+      <div className="apply_wrapper" data-aos="zoom-out" data-aos-once="true"  data-aos-delay="400">
           <h1 className="Contact_heading">Apply for membership</h1>
           <p className='content'>
          Fill the form below to register
