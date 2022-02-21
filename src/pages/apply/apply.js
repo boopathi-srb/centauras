@@ -28,10 +28,11 @@ window.onload=function(){
 const Apply=(props)=> {
   AOS.init({
     duration:1000,
-    offset:100
+    offset:100,
+    delay:400
   });
   return <div className="apply">
-      <div className="apply_wrapper" data-aos="zoom-out" data-aos-once="true"  data-aos-delay="400">
+      <div className="apply_wrapper" data-aos="zoom-out" data-aos-once="true"  >
           <h1 className="Contact_heading">Apply for membership</h1>
           <p className='content'>
          Fill the form below to register
@@ -40,7 +41,7 @@ const Apply=(props)=> {
          
          {/* Form area */}
 
-        <form action="" method="post" id="sheetdb-form" className='form'  autoComplete="on" data-aos="zoom-out"data-aos-once="true"  data-aos-delay="400">
+        <form action="" method="post" id="sheetdb-form" className='form'  autoComplete="on" data-aos="zoom-out" data-aos-once="true"  >
           <div>
             <label for="Name">Name</label>
             <input type="text" placeholder='Enter your Full name' name="data[Name]" />

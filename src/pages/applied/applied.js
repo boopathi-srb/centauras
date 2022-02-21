@@ -7,7 +7,8 @@ import "aos/dist/aos.css";
 function Applied() {
   AOS.init({
     duration:1000,
-    offset:100
+    offset:100,
+    delay:400
   });
   return <div  className="applied">
     <div className="overlay" ></div>

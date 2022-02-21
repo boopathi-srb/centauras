@@ -9,7 +9,8 @@ import "aos/dist/aos.css"
 function About(props) {
   AOS.init({
     duration: 1000,
-    offset:100
+    offset:100,
+    delay:400
   });
   const Team=props.data.team.map((item,pos)=>{
     return(

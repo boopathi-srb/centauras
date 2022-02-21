@@ -8,7 +8,8 @@ const Footer = () => {
   AOS.init(
     {
       duration:1000,
-      offset:100
+      offset:100,
+      delay:400
     }
   );
   return (
