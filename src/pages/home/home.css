@@ -22,6 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 02rem;
+  margin: auto;
 }
 .titleheading_innerwrapper>h1{
   font-size: 3rem;
@@ -33,6 +34,7 @@
   gap: 0;
   height: 7ch;
   align-items: baseline;
+  margin: auto;
 }
 .titleheading_innerwrapper>h2{
   margin-right: 8px;
@@ -146,6 +148,8 @@
 @media screen and (max-width:768px){
   .titleheading_wrapper{
     width: 60vw;
+    margin: auto;
+    justify-content: space-evenly;
   }
 }
   
