@@ -13,7 +13,7 @@ const Footer = () => {
   );
   return (
     <div  className="footer">
-      <div className="footer_wrapper1" data-aos="zoom-out "data-aos-once="true">
+      <div className="footer_wrapper1" data-aos="zoom-out" data-aos-once="true">
         <h3 className="footer_heading">Useful links</h3>
         <div className="footer_links" >
          <a href="/">Home</a>
@@ -23,7 +23,7 @@ const Footer = () => {
          <a href="/Apply">Register</a>
         </div>
       </div>
-      <div  className="footer_wrapper2" data-aos="zoom-out "data-aos-once="true">
+      <div  className="footer_wrapper2" data-aos="zoom-out" data-aos-once="true">
           <h3 className="footer_heading">Social media</h3>
           <div className="footer_links">
           <a  href="https://www.instagram.com/" >Instagram</a>
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
       </div>
       <div   className="footer_wrapper3">
-        <div className="footer_innerwrapper2" data-aos="zoom-out "data-aos-once="true">
+        <div className="footer_innerwrapper2" data-aos="zoom-out" data-aos-once="true">
          <img  src={LocationIcon} alt='locationicon'/>
          <p>Government College of Technology</p>
         </div>
