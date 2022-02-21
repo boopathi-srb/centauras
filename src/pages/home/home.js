@@ -32,9 +32,12 @@ const Home=(props)=> {
           <h1>S</h1><h2>ociety</h2>
           </div>
           </div>
-          <h3>
-            Government College of Technology,<br/>Coimbatore.
-          </h3>
+          <div className="title_description">
+           <h3>
+             Government College of Technology,<br/>Coimbatore.
+           </h3>
+          </div>
+          
         </div>
         <div className="titleimg_wrapper"  data-aos="zoom-out"data-aos-once="true"  >
           <img src={logo} alt="logo"></img>
