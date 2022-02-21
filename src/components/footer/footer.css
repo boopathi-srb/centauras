@@ -56,6 +56,10 @@
   flex-direction: column;
   justify-content:center;
   align-items: center;
+  background-color: black;
+  border-radius: 1rem;
+  width: 40ch;
+  padding: 1rem;
 }
 .footer_innerwrapper1> a>img{
   width: 3ch;
@@ -66,7 +70,6 @@
   color: white;
 }
 .footer_wrapper3{
-  background-color: black;
   width: 40ch;
   margin: 20px;
 }

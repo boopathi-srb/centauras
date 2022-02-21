@@ -7,12 +7,14 @@ import "aos/dist/aos.css"
 const Footer = () => {
   AOS.init(
     {
-      duration:1000
+      duration:500,
+      delay:300,
+      offset:50
     }
   );
   return (
     <div  className="footer">
-      <div  data-aos="zoom-out"data-aos-once="true"  data-aos-offset="50px"  className="footer_wrapper1">
+      <div className="footer_wrapper1" data-aos="zoom-out "data-aos-once="true">
         <h3 className="footer_heading">Useful links</h3>
         <div className="footer_links" >
          <a href="/">Home</a>
@@ -22,7 +24,7 @@ const Footer = () => {
          <a href="/Apply">Register</a>
         </div>
       </div>
-      <div  data-aos="zoom-out"data-aos-once="true" data-aos-offset="50px" className="footer_wrapper2">
+      <div  className="footer_wrapper2" data-aos="zoom-out "data-aos-once="true">
           <h3 className="footer_heading">Social media</h3>
           <div className="footer_links">
           <a  href="https://www.instagram.com/" >Instagram</a>
@@ -30,8 +32,8 @@ const Footer = () => {
           <a  href="https://www.youtube.com/" >YouTube</a>
         </div>
       </div>
-      <div  data-aos="zoom-out" data-aos-once="true" data-aos-offset="50px"  className="footer_wrapper3">
-        <div className="footer_innerwrapper2">
+      <div   className="footer_wrapper3">
+        <div className="footer_innerwrapper2" data-aos="zoom-out "data-aos-once="true">
          <img  src={LocationIcon} alt='locationicon'/>
          <p>Government College of Technology</p>
         </div>

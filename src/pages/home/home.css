@@ -1,11 +1,10 @@
 .Home{
-  /* display:grid; */
   width: 100vw;
-  /* margin-bottom: 50px; */
   display: flex;
   flex-direction: column;
   gap: 0rem;
   align-items: center;
+  overflow: hidden;
 }
 .title_wrapper{
   width: 100vw;
@@ -24,7 +23,7 @@
   text-align: left;
 }
 .titleheading_wrapper>h1{
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .titleimg_wrapper>img{
   width: 30ch;

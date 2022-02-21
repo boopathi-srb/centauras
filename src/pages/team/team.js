@@ -8,12 +8,12 @@ import "aos/dist/aos.css"
 
 function About(props) {
   AOS.init({
-    duration: 1000,
+    duration: 500,
   });
   const Team=props.data.team.map((item,pos)=>{
     return(
       <div className="team_wrapper">
-      <div className="team_card" data-aos="zoom-out"data-aos-once="true"  data-aos-delay="400">
+      <div className="team_card" data-aos="zoom-out"data-aos-once="true">
        <img key={pos} src={item.image} alt={item.Name}/>
        <div className="content_outerwrapper">
          <div className="content_wrapper">
@@ -40,10 +40,10 @@ function About(props) {
   return (
     <div className="team">
       <div className="team_wrapper">
-        <div className="contentwrapper" data-aos="zoom-out"data-aos-once="true"  data-aos-delay="400">
-          <h1 className="heading">Team CAS-GCT</h1>
-          <div className="content">
-            <p >
+        <div className="contentwrapper"  >
+          <h1 className="heading" data-aos="zoom-out" data-aos-once="true">Team CAS-GCT</h1>
+          <div className="content" >
+            <p data-aos="zoom-out" data-aos-once="true">
              The performance of any club depends on the team members.<br/>
              The team members below are the pilots of this CAS-GCT drone.
            </p>
