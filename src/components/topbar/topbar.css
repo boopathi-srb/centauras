@@ -111,7 +111,7 @@
     align-items: center;
     height: fit-content;
     text-align: left;  
-    transform: scale(0,0);
+    transform: scale(1,0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
   }
@@ -139,23 +139,23 @@
     margin: auto;
     padding-bottom: 0.2rem;
   }
-  .topbar_links_wrapper2{
+  .topbar_links{
     width: 100vw;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     padding-top: 4rem;
     background: rgba(17, 17, 17, 0.2);
     backdrop-filter: blur(15px);
     border-radius: 0px 0px 10px 10px;
   } 
-  .topbar_links_wrapper2{
-    /* text-align: left; */
-    display: flex;
-    align-items: flex-end;
-    flex-direction:column;
-  }
+ 
   .toggle_button:checked ~ nav{
     transform: scale(1,1);
+    z-index: 90;
+  }
+  .toggle_button:not(:checked) ~ nav{
+    transform: scale(1,0);
     z-index: 90;
   }
   .toggle_button:checked ~ .topbar_links{

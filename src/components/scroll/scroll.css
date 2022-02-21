@@ -1,0 +1,35 @@
+.scroll{
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+}
+.scroll_button{
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* visibility: hidden; */
+}
+.scrollicon1{
+  width: 5ch;
+  height: 5ch;
+  border-radius: 1rem 1rem 0rem 0rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* position: relative; */
+}
+.scrollicon2{
+  width: 5ch;
+  height: 5ch;
+  border-radius: 0rem 0rem 1rem 1rem;
+  position: absolute;
+  bottom: 10;
+  left: 0;
+}
+.active{
+  opacity: 1;
+}
+.inactive{
+  opacity: 0;
+}
