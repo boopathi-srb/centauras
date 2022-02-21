@@ -69,8 +69,8 @@
 .footer_innerwrapper1>p{
   color: white;
 }
-.footer_wrapper3{
-  width: 40ch;
+.footer_innerwrapper2{
+  width: max-content;
   margin: 20px;
 }
 .footer_innerwrapper2>img{

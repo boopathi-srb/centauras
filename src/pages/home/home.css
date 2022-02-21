@@ -20,9 +20,15 @@
   width: 40vw;
   text-align: left;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 02rem;
   margin: auto;
+}
+.titleheading_wrapper1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
 }
 .titleheading_innerwrapper>h1{
   font-size: 3rem;
@@ -34,7 +40,8 @@
   gap: 0;
   height: 7ch;
   align-items: baseline;
-  margin: auto;
+  /* margin: auto; */
+  margin-left: 0;
 }
 .titleheading_innerwrapper>h2{
   margin-right: 8px;
@@ -148,11 +155,7 @@
 @media screen and (max-width:768px){
   .titleheading_wrapper{
     width: 60vw;
-    margin: auto;
     justify-content: space-evenly;
-  }
-  .title_description{
-    padding: 0rem 0rem 0rem 1.5rem;
   }
 }
   

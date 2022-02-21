@@ -13,15 +13,15 @@ import scrutinizeicon from '../../icons/scrutinize.png'
 
 const Home=(props)=> {
   AOS.init({
-    // duration: 500,
-    // offset:50
+    duration: 500,
+    offset:50
   });
    
   return (
     <div className="Home">
       <div  className="title_wrapper" >
         <div className="titleheading_wrapper"  data-aos="zoom-out"data-aos-once="true">
-          <div>
+          <div className="titleheading_wrapper1">
           <div className="titleheading_innerwrapper">
           <h1>C</h1><h2>entauras</h2> 
           </div>
