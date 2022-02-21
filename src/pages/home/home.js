@@ -21,9 +21,17 @@ const Home=(props)=> {
     <div className="Home">
       <div  className="title_wrapper" >
         <div className="titleheading_wrapper"  data-aos="zoom-out"data-aos-once="true">
-          <h1>
-            <strong>C</strong>entauras <strong>A</strong>erospace <strong>S</strong>ociety
-          </h1>
+          <div>
+          <div className="titleheading_innerwrapper">
+          <h1>C</h1><h2>entauras</h2> 
+          </div>
+          <div className="titleheading_innerwrapper">
+          <h1>A</h1><h2>erospace</h2> 
+          </div>
+          <div className="titleheading_innerwrapper">
+          <h1>S</h1><h2>ociety</h2>
+          </div>
+          </div>
           <h3>
             Government College of Technology,<br/>Coimbatore.
           </h3>
