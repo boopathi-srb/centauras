@@ -29,7 +29,7 @@ const Topbar =()=>{
        <div className="topbar_links_wrapper1">
            <a href="/">HOME</a>
            <a href="/Team">TEAM</a>
-           <a href="/Blogs">BLOGS</a>
+           <a href="/Resources">RESOURCES</a>
            <a href="/Contact">CONTACT</a>
            <a href="/Apply">REGISTER</a> 
         </div>
@@ -44,7 +44,7 @@ const Topbar =()=>{
              <img src={teamicon} alt="teamicon"></img>
            </div>
            <div className="topbar_div">
-             <a href="/Blogs">BLOGS</a>
+             <a href="/Resources">RESOURCES</a>
              <img src={blogicon} alt="blogicon"></img>
            </div>
            <div className="topbar_div">

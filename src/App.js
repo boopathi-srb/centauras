@@ -8,10 +8,11 @@ import { Component } from 'react';
 import Footer from './components/footer/footer';
 import Team from './pages/team/team';
 import Contact  from './pages/contact/contact';
-import Blogs from './pages/blogs/blogs';
+import Resources from './pages/Resources/resources';
 import Apply from './pages/apply/apply'
 import Applied from './pages/applied/applied';
 import Data from './data';
+import Scroll from './components/scroll/scroll';
 
 
 class App extends Component {
@@ -32,11 +33,13 @@ class App extends Component {
          <Route path="/" element={<Home/>} exact></Route>
          <Route path="/Team" element={ <Team data={this.state.teamData}/>} exact></Route>
          <Route path="/Contact" element={ <Contact/>} exact></Route>
-         <Route path="/Blogs" element={ <Blogs/>} exact></Route>
+         <Route path="/Resources" element={ <Resources/>} exact></Route>
          <Route path="/Apply" element={ <Apply/>} exact></Route>
          <Route path="/Applied" element={ <Applied/>} exact></Route>
          
+         
        </Routes>
+       <Scroll/>
       </div>
       <footer className="footer">
          <Footer/>

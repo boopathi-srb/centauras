@@ -32,6 +32,7 @@ footer{
   margin-bottom: 02%;
   font-family: 'Jost', sans-serif;
 }
+
 @media screen and (max-width:768px) {
   body, header, footer{
     overflow-x: hidden;

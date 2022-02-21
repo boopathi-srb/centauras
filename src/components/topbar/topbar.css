@@ -52,6 +52,12 @@
   padding: 0.2em;
   border-radius: 10%;
 }
+.topbar_links_wrapper1>a:last-of-type{
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
 .topbar_links_wrapper1 a:hover{
    opacity: 0.8;
 }
@@ -107,7 +113,7 @@
     text-align: left;  
     transform: scale(0,0);
     transform-origin: top;
-    transition: transform 300ms ease-in-out;
+    transition: transform 400ms ease-in-out;
   }
   .topbar_div{
     display: flex;
@@ -115,6 +121,17 @@
     align-items: flex-end;
     padding: 0.3rem 1rem 0.3rem;
     
+  }
+  .topbar_div:last-of-type{
+    background-color:white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .topbar_div:last-of-type>a{
+    color: black;
   }
   .topbar_div>img{
     width: 01rem;

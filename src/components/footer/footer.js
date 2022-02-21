@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="footer_links" >
          <a href="/">Home</a>
          <a href="/Team">Team</a>
-         <a href="/Blogs">Blogs</a>
+         <a href="/Resources">Resources</a>
          <a href="/Contact">Contact</a>
          <a href="/Apply">Register</a>
         </div>

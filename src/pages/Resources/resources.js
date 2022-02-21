@@ -1,7 +1,7 @@
 import React from 'react';
-import './blogs.css'
+import './resources.css'
 
-function blogs() {
+function Resources() {
   return <div>
      <div className="blogs">
      <h1 className="blog_heading">Blogs of CAS</h1>
@@ -9,4 +9,4 @@ function blogs() {
   </div>;
 }
 
-export default blogs;
+export default Resources;
