@@ -7,7 +7,7 @@
   text-align: right;
   align-items: right;
   justify-content: space-between;
-  /* position: fixed; */
+  position: fixed;
   border-radius: 0rem 0rem 2rem 2rem ;
   border-bottom: 3px solid black;
 }
@@ -58,6 +58,9 @@
   background-color: white;
   padding: 1rem;
   border-radius: 1.5rem;
+  margin: auto;
+  justify-self: center;
+  align-self: center;
 }
 .topbar_div>a.active{
   background-color: white;
@@ -93,7 +96,7 @@
 
 @media only screen and (max-width:768px){
   .topbar{
-    margin-left: 1vw;
+    margin-left: 2vw;
   }
   .topbar_div>a {
     display: inline-flex;
@@ -108,13 +111,32 @@
     padding: 0.2em;
     border-radius: 10%;
   }
+  .topbar_div>a.active{
+    background:none;
+   color: white;
+   width: auto;
+   font-size: 1.3rem;
+   padding: 0rem;
+   height:auto;
+   margin-top: 1rem;
+   border-radius: 1rem;
+  }
   nav {
     position: absolute;
-    top: 0%;
-    left: -1%;
-    transform: scale(1,0);
+    top: 0;
+    left: -4%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    border-radius: 0px 0px 16px 16px;
+    padding: 10px;
+    text-align: left;  
+    transform: scale(0,0);
     transform-origin: top;
-    transition: transform 300ms ease-out;
+    transition: transform 300ms ease-in-out;
+    z-index: 999;
   }
   .topbar_div{
     display: flex;
