@@ -11,10 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.active{
+.active:not(NavLink:nth-child(5)){
   background: white;
   color: black !important;
-  width: 10ch;
+  width: 15ch;
   padding: 0rem;
   height: 100%;
   margin-top: 30%;
