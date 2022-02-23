@@ -5,6 +5,7 @@
 }
 .scroll_button{
   position: relative;
+  width:5ch ;
   background: none;
   border: none;
   cursor: pointer;

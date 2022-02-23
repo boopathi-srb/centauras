@@ -32,7 +32,7 @@ const Apply=(props)=> {
     delay:400
   });
   return <div className="apply">
-      <div className="apply_wrapper" data-aos="zoom-out" data-aos-once="true"  >
+      <div className="apply_wrapper" data-aos="zoom-in" data-aos-once="true"  >
           <h1 className="Contact_heading">Apply for membership</h1>
           <p className='content'>
          Fill the form below to register
@@ -41,7 +41,7 @@ const Apply=(props)=> {
          
          {/* Form area */}
 
-        <form action="" method="post" id="sheetdb-form" className='form'  autoComplete="on" data-aos="zoom-out" data-aos-once="true"  >
+        <form action="" method="post" id="sheetdb-form" className='form'  autoComplete="on" data-aos="zoom-in" data-aos-once="true"  >
           <div>
             <label for="Name">Name</label>
             <input type="text" placeholder='Enter your Full name' name="data[Name]" />

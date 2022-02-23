@@ -14,10 +14,11 @@ code {
 .active{
   background: white;
   color: black !important;
-  padding: 0rem;
+  width: 12ch;
+  padding: 0.5rem 0.5rem 0rem 0rem;
   height: 100%;
-  margin-top: 30%;
-  border-radius: 0rem 0rem 2rem 2rem ;
+  margin-top: 018%;
+  border-radius: 1rem 1rem 0rem 0rem ;
   display: flex;
   flex-direction: row;
   justify-content:center ;

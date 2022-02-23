@@ -13,7 +13,7 @@ function Applied() {
   return <div  className="applied">
     <div className="overlay" ></div>
     <div className="outerwrapper">
-      <div  data-aos="zoom-out"data-aos-once="true"  data-aos-delay="400" className="wrapper">
+      <div  data-aos="zoom-out" data-aos-once="true" className="wrapper">
       <img className="thumbsup" src={thumbsup} alt="applied"/>
       <h1>Applied!</h1>
       <p>

@@ -15,7 +15,7 @@ function About(props) {
   const Team=props.data.team.map((item,pos)=>{
     return(
       <div className="team_wrapper">
-      <div className="team_card" data-aos="zoom-out"data-aos-once="true">
+      <div className="team_card" data-aos="zoom-in"data-aos-once="true">
        <img key={pos} src={item.image} alt={item.Name}/>
        <div className="content_outerwrapper">
          <div className="content_wrapper">
@@ -43,9 +43,9 @@ function About(props) {
     <div className="team">
       <div className="team_wrapper">
         <div className="contentwrapper"  >
-          <h1 className="heading" data-aos="zoom-out" data-aos-once="true">Team CAS-GCT</h1>
+          <h1 className="heading" data-aos="zoom-in" data-aos-once="true">Team CAS-GCT</h1>
           <div className="content" >
-            <p data-aos="zoom-out" data-aos-once="true">
+            <p data-aos="zoom-in" data-aos-once="true">
              The performance of any club depends on the team members.<br/>
              The team members below are the pilots of this CAS-GCT drone.
            </p>

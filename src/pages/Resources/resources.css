@@ -43,13 +43,13 @@
   padding: 2rem;
   box-shadow: 0px 0px 10px;
 }
-.title-wrapper{
+.card .title-wrapper{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 16ch;
 }
-.title-wrapper>h2,h4{
+.card .title-wrapper>h2,h4{
   text-align: left;
 }
 .card>img{
@@ -68,7 +68,7 @@
     gap: 1rem;
     width: 70vw;
   }
-  .title-wrapper{
+  .card .title-wrapper{
     width: 30ch;
   }
   .card>img{

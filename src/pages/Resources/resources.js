@@ -5,14 +5,21 @@ import webinar from '../../icons/webinar-card.png'
 import workshop from '../../icons/workshops-card.png'
 import youtube from '../../icons/youtube-card.png'
 import './resources.css'
+import AOS from 'aos';
+import "aos/dist/aos.css"
 
 function Resources() {
+  AOS.init({
+    duration: 1000,
+    offset:100,
+    delay:400
+  });
   return <div>
      <div className="resources">
-        <h1 className="resource-heading">CAS' Resources</h1>
+        <h1 className="resource-heading" data-aos="zoom-in" data-aos-once="true">CAS' Resources</h1>
      </div>
      <div className="card-wrapper">
-       <div className="card">
+       <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
            <h2>
              CAS-Blogs
@@ -24,7 +31,7 @@ function Resources() {
          <img src={blog} alt="blogs"/>
          <a href="/">View..</a>
        </div>
-       <div className="card">
+       <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
            <h2>
              CAS-Books
@@ -36,7 +43,7 @@ function Resources() {
          <img src={books} alt="books"/>
          <a href="/">View..</a>
        </div>
-       <div className="card">
+       <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
            <h2>
              CAS-Webinars
@@ -48,7 +55,7 @@ function Resources() {
          <img src={webinar} alt="webinar"/>
          <a href="/">View..</a>
        </div>
-       <div className="card">
+       <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
            <h2>
              CAS-Workshops
@@ -60,7 +67,7 @@ function Resources() {
          <img src={workshop} alt="workshop"/>
          <a href="/">View..</a>
        </div>
-       <div className="card">
+       <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
            <h2>
              CAS-Playlists

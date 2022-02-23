@@ -98,11 +98,17 @@
 .home_innerwrapper1{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
 }
 .home_innerwrapper1_child{
   width: 30ch;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* what we do here styles */
