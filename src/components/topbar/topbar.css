@@ -1,12 +1,14 @@
 .topbar{
   display: flex;
-  background: rgb(255, 255, 255);
-  width: 100vw;
-  height: 8vh;
+  background: black;
+  width: 98vw;
+  height: 10vh;
+  margin-left: 0.5vw;
   text-align: right;
   align-items: right;
   justify-content: space-between;
   position: fixed;
+  border-radius: 0rem 0rem 2rem 2rem ;
   border-bottom: 3px solid black;
 }
 .logo_wrapper{
@@ -32,8 +34,24 @@
   margin-right: 30px;
 }
 .topbar_links{
-  visibility: collapse;
-  width: 0;
+  display: flex;
+  gap: 2rem;
+  margin-right: 2rem;
+}
+.topbar_div>img{
+  display: none;
+}
+.topbar_div>a{
+  text-decoration: none;
+  color: white;
+}
+.topbar_div>a:hover{
+  opacity: 0.5;
+}
+.topbar_div:last-of-type>a{
+  color: black;
+  background-color: white;
+  padding: 1rem;border-radius: 1.5rem;
 }
 .topbar_links_wrapper1{
   margin-right: 4rem;
@@ -80,13 +98,8 @@
 }
 
 @media only screen and (max-width:768px){
-  .logo_wrapper>img{
-    max-width: 50px;
-    left: 5%;
-    top: 12%;
-  }
   .topbar{
-    min-height: 60px;
+    margin-left: 1vw;
   }
   .topbar_div>a {
     display: inline-flex;
@@ -104,13 +117,7 @@
   nav {
     position: absolute;
     top: 0%;
-    left: 0;
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-    text-align: left;  
+    left: -1%;
     transform: scale(1,0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
@@ -120,7 +127,6 @@
     flex-direction: row;
     align-items: flex-end;
     padding: 0.3rem 1rem 0.3rem;
-    
   }
   .topbar_div:last-of-type{
     background-color:white;
@@ -134,6 +140,7 @@
     color: black;
   }
   .topbar_div>img{
+    display: block;
     width: 01rem;
     height: 1rem;
     margin: auto;
@@ -181,7 +188,7 @@
   .toggle_button_label span::after,
   .toggle_button_label span::before{
     display: block;
-    background:rgb(0, 0, 0);
+    background:white;
     width: 1.5em;
     height: 0.2em;
     border-radius: 2px;

@@ -26,15 +26,8 @@ const Topbar =()=>{
       <div className="rightside">
        <input type="checkbox" id="toggle_button" className="toggle_button">
        </input>
-       <div className="topbar_links_wrapper1">
-           <a href="/">HOME</a>
-           <a href="/Team">TEAM</a>
-           <a href="/Resources">RESOURCES</a>
-           <a href="/Contact">CONTACT</a>
-           <a href="/Apply">REGISTER</a> 
-        </div>
+      
        <nav className="topbar_links"  >
-         {/* <div className="topbar_links_wrapper2" data-aos="zoom-out-down" data-aos-once="true"> */}
            <div className="topbar_div">
              <a href="/">HOME</a>
              <img src={homeicon} alt="homeicon"></img>
@@ -55,7 +48,6 @@ const Topbar =()=>{
              <a href="/Apply">REGISTER</a>
              <img src={applyicon} alt="applyicon"></img>
            </div>
-          {/* </div> */}
        </nav>
        <label for="toggle_button" className="toggle_button_label">
          <span></span>
