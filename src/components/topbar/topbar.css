@@ -75,6 +75,7 @@
 @media only screen and (max-width:768px){
   .topbar{
     margin-left: 2vw;
+    overflow-y: visible;
   }
   .topbar_div>a {
     display: inline-flex;
