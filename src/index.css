@@ -28,8 +28,7 @@ code {
 @media screen and (max-width:768px){
   .active{
     background:none;
-   color: white !important;
-   width: 8ch;
-   font-size: 1.3rem !important;
+   color: white!important;
+   font-size: 1.5rem !important;
   }
 }
