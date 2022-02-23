@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.active{
+  background: white;
+  color: black !important;
+  width: 10ch;
+  padding: 0rem;
+  height: 100%;
+  margin-top: 30%;
+  border-radius: 1rem 1rem 0rem 0rem ;
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+  align-items: center;
+  position: relative;
+}
+@media screen and (max-width:768px){
+  .active{
+    background:none;
+   color: white !important;
+   width: 8ch;
+   font-size: 1.3rem !important;
+  }
+}

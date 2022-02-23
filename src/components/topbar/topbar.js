@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import './topbar.css';
 import logo from "./CAS LogoNT.png";
 import homeicon from './home icon.png';
@@ -16,6 +17,11 @@ const Topbar =()=>{
     offset:100,
     delay:400
   });
+
+  function onClick(){
+    // const NavBar=document.getElementById("nav");
+    
+  }
   return(
     <div>
      <div className="topbar">
@@ -27,27 +33,25 @@ const Topbar =()=>{
        <input type="checkbox" id="toggle_button" className="toggle_button">
        </input>
       
-       <nav className="topbar_links"  >
+       <nav className="topbar_links" id="nav"  >
            <div className="topbar_div">
-             <b></b>
-             <b></b>
-             <a class="link active" href="/">HOME</a>
+             <NavLink onClick={onClick} class="link" activeclassname="active" to="/">HOME</NavLink>
              <img src={homeicon} alt="homeicon"></img>
            </div>
            <div className="topbar_div">
-             <a  class="link" href="/Team">TEAM</a>
+             <NavLink onClick={onClick} class="link" activeclassname="active" to="/Team">TEAM</NavLink>
              <img src={teamicon} alt="teamicon"></img>
            </div>
            <div className="topbar_div">
-             <a class="link" href="/Resources">RESOURCES</a>
+             <NavLink onClick={onClick} class="link" activeclassname="active" to="/Resources">RESOURCES</NavLink>
              <img src={blogicon} alt="blogicon"></img>
            </div>
            <div className="topbar_div">
-             <a class="link" href="/Contact">CONTACT</a>
+             <NavLink onClick={onClick} class="link" activeclassname="active" to="/Contact">CONTACT</NavLink>
              <img src={contacticon} alt="contacticon"></img>
            </div>
            <div className="topbar_div">
-             <a class="link" href="/Apply">REGISTER</a>
+             <NavLink  onClick={onClick} class="link" activeclassname="active" to="/Apply">REGISTER</NavLink>
              <img src={applyicon} alt="applyicon"></img>
            </div>
        </nav>

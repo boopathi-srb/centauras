@@ -24,7 +24,7 @@
   align-items: left;
   justify-content: left;
   position:absolute;
-  left: 10%;
+  left: 07%;
   z-index: 99;
 }
 .rightside{
@@ -62,20 +62,6 @@
   justify-self: center;
   align-self: center;
 }
-.topbar_div>a.active{
-  background-color: white;
-  color: black;
-  width: 10ch;
-  padding: 0rem;
-  height: 100%;
-  margin-top: 30%;
-  border-radius: 1rem 1rem 0rem 0rem ;
-  display: flex;
-  flex-direction: row;
-  justify-content:center ;
-  align-items: center;
-  position: relative;
-}
 .toggle_button {
   position: absolute;
   top: 0.75rem;
@@ -111,16 +97,6 @@
     padding: 0.2em;
     border-radius: 10%;
   }
-  .topbar_div>a.active{
-    background:none;
-   color: white;
-   width: auto;
-   font-size: 1.3rem;
-   padding: 0rem;
-   height:auto;
-   margin-top: 1rem;
-   border-radius: 1rem;
-  }
   nav {
     position: absolute;
     top: 0;
@@ -143,6 +119,16 @@
     flex-direction: row;
     align-items: flex-end;
     padding: 0.3rem 1rem 0.3rem;
+  }
+  .topbar_div>NavLink.active{
+    background:none;
+   color: white;
+   width: auto;
+   font-size: 1.3rem;
+   padding: 0rem;
+   height:auto;
+   margin-top: 1rem;
+   border-radius: 1rem;
   }
   .topbar_div:last-of-type{
     background-color:white;
@@ -181,13 +167,6 @@
     transform: scale(1,0);
     z-index: 90;
   }
-  .toggle_button:checked ~ .topbar_links{
-     visibility: visible;
-  }
- .topbar_links_wrapper1{
-    visibility: collapse;
-    width: 0;
-  }
   .toggle_button_label{
     position: absolute;
     top: 0;
@@ -222,18 +201,9 @@
   .toggle_button_label span::after{
     top: 7px;
   }
-  /* .toggle_button:checked ~ .topbar{
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(15px);
-  } */
   .toggle_button:checked ~  .toggle_button_label span{
     visibility: hidden;
     animation: hamburgerX 500ms ease-in ;
-  }
-  .toggle_button:not(:checked) ~  .toggle_button_label p{
-    visibility: hidden;
-    animation: hamburgerX 500ms ease-in reverse;
   }
   .toggle_button:checked ~  .toggle_button_label p{
     visibility: visible;
@@ -245,10 +215,5 @@
     font-weight: 600;
     animation: hamburgerX 500ms ease-in;
     z-index: 98;
-  }
-  @keyframes hamburgerX {
-    0%{transform: scale3d(0,0,0);}
-    50%{transform: scale3d(0.5,0.5,0.5);}
-    100%{transform: scale3d(1,1,1);}
   }
 }
