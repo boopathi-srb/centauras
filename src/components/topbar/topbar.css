@@ -9,7 +9,7 @@
   justify-content: space-between;
   position: fixed;
   border-radius: 0rem 0rem 2rem 2rem ;
-  border-bottom: 3px solid black;
+  box-shadow: 0px 0px 5px white;
 }
 .logo_wrapper{
   display: flex;
@@ -68,7 +68,7 @@
   width: 10ch;
   padding: 0rem;
   height: 100%;
-  margin-top: 33%;
+  margin-top: 30%;
   border-radius: 1rem 1rem 0rem 0rem ;
   display: flex;
   flex-direction: row;
