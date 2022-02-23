@@ -29,23 +29,25 @@ const Topbar =()=>{
       
        <nav className="topbar_links"  >
            <div className="topbar_div">
-             <a href="/">HOME</a>
+             <b></b>
+             <b></b>
+             <a class="link active" href="/">HOME</a>
              <img src={homeicon} alt="homeicon"></img>
            </div>
            <div className="topbar_div">
-             <a href="/Team">TEAM</a>
+             <a  class="link" href="/Team">TEAM</a>
              <img src={teamicon} alt="teamicon"></img>
            </div>
            <div className="topbar_div">
-             <a href="/Resources">RESOURCES</a>
+             <a class="link" href="/Resources">RESOURCES</a>
              <img src={blogicon} alt="blogicon"></img>
            </div>
            <div className="topbar_div">
-             <a href="/Contact">CONTACT</a>
+             <a class="link" href="/Contact">CONTACT</a>
              <img src={contacticon} alt="contacticon"></img>
            </div>
            <div className="topbar_div">
-             <a href="/Apply">REGISTER</a>
+             <a class="link" href="/Apply">REGISTER</a>
              <img src={applyicon} alt="applyicon"></img>
            </div>
        </nav>
