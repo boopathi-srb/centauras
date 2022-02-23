@@ -11,14 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.active:not(NavLink:nth-child(5)){
+.active{
   background: white;
   color: black !important;
-  width: 15ch;
   padding: 0rem;
   height: 100%;
   margin-top: 30%;
-  border-radius: 1rem 1rem 0rem 0rem ;
+  border-radius: 0rem 0rem 2rem 2rem ;
   display: flex;
   flex-direction: row;
   justify-content:center ;
@@ -27,8 +26,8 @@ code {
 }
 @media screen and (max-width:768px){
   .active{
-    background:none;
-   color: white!important;
+    background:none !important;
+    color: white !important;
    font-size: 1.5rem !important;
   }
 }

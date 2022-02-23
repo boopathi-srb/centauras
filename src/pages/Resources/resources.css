@@ -66,10 +66,14 @@
 @media screen and (max-width:768px){
   .card{
     gap: 1rem;
-    width: 40ch;
+    width: 70vw;
   }
   .title-wrapper{
     width: 30ch;
+  }
+  .card>img{
+    width: 60vw;
+    margin: auto;
   }
 
 }
