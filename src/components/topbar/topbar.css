@@ -114,21 +114,15 @@
     transition: transform 300ms ease-in-out;
     z-index: 999;
   }
+  .close{
+    transform: scale(0,0);
+    transition: transform 300ms ease-in-out;
+  }
   .topbar_div{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     padding: 0.3rem 1rem 0.3rem;
-  }
-  .topbar_div>NavLink.active{
-    background:none;
-   color: white;
-   width: auto;
-   font-size: 1.3rem;
-   padding: 0rem;
-   height:auto;
-   margin-top: 1rem;
-   border-radius: 1rem;
   }
   .topbar_div:last-of-type{
     background-color:white;

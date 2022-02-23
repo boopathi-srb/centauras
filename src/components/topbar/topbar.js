@@ -17,11 +17,12 @@ const Topbar =()=>{
     offset:100,
     delay:400
   });
+const NavBar=document.getElementById("nav");
+function close(){
+  NavBar.className.toggle(" close")
+  console.log("close");
+}
 
-  function onClick(){
-    // const NavBar=document.getElementById("nav");
-    
-  }
   return(
     <div>
      <div className="topbar">
@@ -30,28 +31,28 @@ const Topbar =()=>{
        </div>
       
       <div className="rightside">
-       <input type="checkbox" id="toggle_button" className="toggle_button">
+       <input type="checkbox" id="toggle_button" className="toggle_button" aria-controls="nav" aria-expanded="false">
        </input>
       
-       <nav className="topbar_links" id="nav"  >
+       <nav className="topbar_links close" id="nav"  >
            <div className="topbar_div">
-             <NavLink onClick={onClick} class="link" activeclassname="active" to="/">HOME</NavLink>
+             <NavLink onClick={close}  class="link" id="links" activeclassname="active" exact to="/">HOME</NavLink>
              <img src={homeicon} alt="homeicon"></img>
            </div>
            <div className="topbar_div">
-             <NavLink onClick={onClick} class="link" activeclassname="active" to="/Team">TEAM</NavLink>
+             <NavLink onClick={close}  class="link" id="links" activeclassname="active" exact to="/Team">TEAM</NavLink>
              <img src={teamicon} alt="teamicon"></img>
            </div>
            <div className="topbar_div">
-             <NavLink onClick={onClick} class="link" activeclassname="active" to="/Resources">RESOURCES</NavLink>
+             <NavLink  onClick={close} class="link" id="links" activeclassname="active" exact to="/Resources">RESOURCES</NavLink>
              <img src={blogicon} alt="blogicon"></img>
            </div>
            <div className="topbar_div">
-             <NavLink onClick={onClick} class="link" activeclassname="active" to="/Contact">CONTACT</NavLink>
+             <NavLink onClick={close} class="link" id="links" activeclassname="active" exact to="/Contact">CONTACT</NavLink>
              <img src={contacticon} alt="contacticon"></img>
            </div>
            <div className="topbar_div">
-             <NavLink  onClick={onClick} class="link" activeclassname="active" to="/Apply">REGISTER</NavLink>
+             <NavLink onClick={close} class="link" id="links" activeclassname="active" exact to="/Apply">REGISTER</NavLink>
              <img src={applyicon} alt="applyicon"></img>
            </div>
        </nav>
