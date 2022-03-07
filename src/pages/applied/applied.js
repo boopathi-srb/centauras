@@ -8,7 +8,7 @@ function Applied() {
   AOS.init({
     duration:1000,
     offset:100,
-    delay:400
+    delay:200
   });
   return <div  className="applied">
     <div className="overlay" ></div>

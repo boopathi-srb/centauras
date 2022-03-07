@@ -12,7 +12,7 @@ function Resources() {
   AOS.init({
     duration: 1000,
     offset:100,
-    delay:400
+    delay:200
   });
   return <div>
      <div className="resources">

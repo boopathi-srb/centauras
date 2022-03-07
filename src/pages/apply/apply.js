@@ -29,7 +29,7 @@ const Apply=(props)=> {
   AOS.init({
     duration:1000,
     offset:100,
-    delay:400
+    delay:200
   });
   return <div className="apply">
       <div className="apply_wrapper" data-aos="zoom-in" data-aos-once="true"  >

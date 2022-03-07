@@ -15,7 +15,7 @@ const Topbar =()=>{
   AOS.init({
     duration: 1000,
     offset:100,
-    delay:400
+    delay:200
   });
 const NavBar=document.getElementById("nav");
 function close(){

@@ -2,8 +2,17 @@ import React from 'react';
 import {useEffect, useState} from 'react';
 import scrollicon from '../../icons/scroll.png'
 import './scroll.css'
+import AOS from 'aos';
+import "aos/dist/aos.css"
 
 const Scroll=()=> {
+  AOS.init(
+    {
+      duration:1000,
+      offset:100,
+      delay:200
+    }
+  );
   const [isVisible, setIsVisible]=useState(false);
   //  isVisible=setIsVisible;
   const visibility =()=>{

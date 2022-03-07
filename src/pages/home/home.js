@@ -15,7 +15,7 @@ const Home=(props)=> {
   AOS.init({
     duration: 1000,
     offset:100,
-    delay:400
+    delay:200
   });
    
   return (
