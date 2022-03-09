@@ -58,26 +58,30 @@
   width: 20ch;
   margin: auto;
   border-radius: 2rem;
-  box-shadow: 0px 0px 5px 0px;
+  /* box-shadow: 0px 0px 10px 1px; */
 }
 .team_wrapper{
   width: fit-content;
 }
 .content_outerwrapper{
   margin: 0px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
 .content_wrapper{
   display: flex;
   flex-direction: column;
-  gap: 0rem;
+  gap: 0.6rem;
 }
-.content_wrapper>h5{
-  margin-top: 0%;
+.content_wrapper>h3, h5, h6{
+  margin: 0%;
 }
+
 .icon_wrapper{
   display: flex;
   justify-content: space-evenly;
-  margin: auto;
   align-items: center;
 }
 .icon_wrapper>a>img{

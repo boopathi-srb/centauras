@@ -21,15 +21,16 @@ function About(props) {
          <div className="content_wrapper">
            <h3>{item.Name}</h3>
            <h5>{item.Position}</h5>
+           <h6>{item.Portfolio}</h6>
          </div>
          <div className="icon_wrapper">
-           <a href={item.linkedin}>
+           <a href={item.LinkedIn}>
              <img key={pos} src={linkedin} alt="linkedIn_icon"/>
            </a>
-           <a href={item.instgram}>
+           <a href={item.Instgram}>
              <img key={pos} src={instagram} alt="instagram_icon"/>
            </a>
-           <a href={item.github}>
+           <a href={item.Github}>
              <img key={pos} src={github} alt="github_icon"/>
            </a>
          </div>
