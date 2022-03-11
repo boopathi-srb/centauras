@@ -33,7 +33,7 @@ const Apply=(props)=> {
   });
   return <div className="apply">
       <div className="apply_wrapper" data-aos="zoom-in" data-aos-once="true"  >
-          <h1 className="Contact_heading">Apply for membership</h1>
+          <h1 className="Apply_heading">Apply for membership</h1>
           <p className='content'>
          Fill the form below to register
           </p>
@@ -41,14 +41,14 @@ const Apply=(props)=> {
          
          {/* Form area */}
 
-        <form action="" method="post" id="sheetdb-form" className='form'  autoComplete="on" data-aos="zoom-in" data-aos-once="true"  >
+        <form action="https://sheetdb.io/api/v1/k77xdax948vqp" method="post" id="sheetdb-form" className='form'  autoComplete="on" data-aos="zoom-in" data-aos-once="true"  >
           <div>
             <label for="Name">Name</label>
             <input type="text" placeholder='Enter your Full name' name="data[Name]" />
           </div>
           <div>
             <label for="Roll number">Roll Number</label>
-            <input type="text" placeholder='Enter your Roll number' name="data[Roll number]"  />
+            <input type="text" placeholder='Enter your Roll number' name="data[Roll Number]"  />
           </div>
           <div>
             <label for="Email">Email - personal</label>
@@ -64,7 +64,7 @@ const Apply=(props)=> {
           </div>
           <div>
            <label for="Year of study">Year of study</label>
-            <select className='selection' name="data[Year of study]" >
+            <select className='selection' name="data[Year of Study]" >
               <option disabled="disabled" selected>select the current year of study</option>
               <option>2</option>
               <option>3</option>
@@ -72,7 +72,7 @@ const Apply=(props)=> {
           </div>
           <div>
           <label for="Department">Department</label>
-            <input type="text" maxLength="20" placeholder="Enter the departmentof study" name="data[Required theme]"></input>
+            <input type="text" maxLength="20" placeholder="Enter the departmentof study" name="data[Department]"></input>
           </div>
           <div>
             <label for="Date of birth">Date of Birth</label>
@@ -89,6 +89,10 @@ const Apply=(props)=> {
           <div>
             <label for="Address">Address</label>
             <textarea type="text" rows="6" cols="50" placeholder="Enter your correct address" size="30" name="data[Address]" />
+          </div>
+          <div>
+            <label for="Number">Area of interest</label>
+            <input type="text"   placeholder='Enter your area of interest' name="data[Interest]"  />
           </div>
           <div>
             <button  type='submit' >Apply</button>

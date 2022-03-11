@@ -12,6 +12,28 @@
 .content{
   margin-bottom: 4rem;
 }
+.Apply_heading{
+  position: relative;
+}
+.Apply_heading::after{
+  content: " ";
+  display: inline-flex;
+  justify-content: center;
+  height: 5px;
+  width: 50%;
+  border-radius: 5%;
+  background-color: black;
+  position: absolute;
+  top: 100%;
+  left:25%;
+  animation: animate 3s ease-in-out infinite;
+  /* transform-origin: left; */
+}
+@keyframes animate {
+  0%{transform:scale(0%)}
+  50%{transform: scale(100%);}
+  100%{transform: scale(0%);}
+}
 .form{
   display: flex;
   flex-direction: column;
@@ -30,7 +52,7 @@
 .form div{
   display: grid;
 }
-.form div:nth-child(12) button{
+.form div:nth-child(13) button{
   width: 10ch;
   margin: auto;
   background-color: black;
@@ -42,7 +64,7 @@
   font-family: 'Jost', sans-serif;
   border-radius: 1rem;
 }
-.form div:nth-child(12) button:hover{
+.form div:nth-child(13) button:hover{
   cursor: pointer;
   transform: scale(1.2);
 }
