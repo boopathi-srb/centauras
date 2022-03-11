@@ -94,7 +94,7 @@ const Data= {
 
 },
 {
-  Name: 'Sreeejith Ravi',
+  Name: 'Sreejith Ravi',
   Position: 'Project Pilot',
   Portfolio: 'Pre-Final Year, Mechanical Engineering',
   LinkedIn:'https://www.linkedin.com/in/sreejith-ravi/',
