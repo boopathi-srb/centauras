@@ -46,9 +46,9 @@
 /* card styles */
 
 .team_card{
-  width: 40ch;
+  width: 42ch;
   display: flex;
-  gap: 1.2rem;
+  gap: 1rem;
   padding: 1rem 0.7rem;
   justify-content: space-around;
   border-radius: 2rem;
@@ -94,18 +94,13 @@
  width: 2ch;
  height: 2ch;
 }
-.icon_wrapper:nth-child(1){
-  visibility: hidden;
-  width: 0%;
-}
-
 .team_cardwrapper{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 4rem;
-  width: 90vw;
+  width: 95vw;
   margin: auto;
 }
 

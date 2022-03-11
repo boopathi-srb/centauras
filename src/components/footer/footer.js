@@ -27,9 +27,9 @@ const Footer = () => {
       <div  className="footer_wrapper2" data-aos="zoom-in" data-aos-once="true">
           <h3 className="footer_heading">Social media</h3>
           <div className="footer_links">
-          <a  href="https://www.instagram.com/" >Instagram</a>
-          <a  href="https://www.linkedin.com/" >LinkedIn</a>
-          <a  href="https://www.youtube.com/" >YouTube</a>
+          <a  href="https://instagram.com/cas_gct?utm_medium=copy_link" >Instagram</a>
+          <a  href="https://www.linkedin.com/company/centaurus-aerospace-society-gct" >LinkedIn</a>
+          {/* <a  href="https://www.youtube.com/" >YouTube</a> */}
         </div>
       </div>
       <div   className="footer_wrapper3">

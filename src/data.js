@@ -12,8 +12,14 @@ import Sakthiharish from './team photos/SAKTHI HARISH.jpg'
 import Saravana from './team photos/SARAVANA.jpg'
 import Sujitha from './team photos/SUJITHA.jpg'
 import Vishnujanani from './team photos/VISHNUJANANI.jpg'
-
-
+import Rakesh from './team photos/RAKESH.jpg'
+import Nithish from './team photos/NITHISH.jpg'
+import Abi from './team photos/ABI.jpg'
+import Vikram from './team photos/VIKRAM.jpg'
+import Parimala from './team photos/PARIMALA MAM.jpg'
+import Periyasamy from './team photos/PERIYASAMY SIR.jpg'
+import Surendran from './team photos/SURENDRAN SIR.jpg'
+import Sreejith from './team photos/SREEJITH.jpg'
 
 
 
@@ -24,19 +30,19 @@ const Data= {
           Name: 'Tmt. S. Parimala Murugaveni',
           Position: 'Club Advisor',
           Portfolio: 'Assosciate Professor, Mechaniacal Engineering',
-          image: Rathinaboopathi
+          image: Parimala
       },
       {
         Name: 'Dr. S. Periyasamy',
         Position: 'Club Advisor',
         Portfolio: 'Assosciate Professor, Mechaniacal Engineering',
-        image: Rathinaboopathi
+        image: Periyasamy
     },
     {
       Name: 'Thiru. R. Surendran',
       Position: 'Club Advisor',
       Portfolio: 'Assistant Professor, Mechaniacal Engineering',
-      image: Rathinaboopathi
+      image: Surendran
   },
       {
         Name: 'Aruveen T',
@@ -71,12 +77,12 @@ const Data= {
   image: Mahaveersachin
 },
 {
-  Name: 'Nithish Kumar',
+  Name: 'Nithish Kumar S',
   Position: 'Secretary',
   Portfolio: 'Pre-Final Year, Mechnaical Engineering',
   Instgram:'https://instagram.com/sea_.king_?utm_medium=copy_link',
   LinkedIn:'https://www.linkedin.com/in/nithish-kumar-s-968b231bb',
-  image: Rathinaboopathi
+  image: Nithish
 },
 {
   Name: 'Sujitha B',
@@ -91,16 +97,14 @@ const Data= {
   Name: 'Sreeejith Ravi',
   Position: 'Project Pilot',
   Portfolio: 'Pre-Final Year, Mechnaical Engineering',
-  LinkedIn:'https://www.linkedin.com/in/periasamy-k-857866176',
-  Instgram:'https://www.instagram.com/p/B-eVjXXlrtr-18o3iLskl6o39PGSGmSO7N_oZY0/',
-  image: Rathinaboopathi
+  LinkedIn:'https://www.linkedin.com/in/sreejith-ravi/',
+  Instgram:'https://www.instagram.com/balaravi44/',
+  image: Sreejith
 },
 {
   Name: 'Mohamed Yassir',
   Position: 'Manufacturing pilot',
   Portfolio: 'Pre-Final Year, Mechnaical Engineering',
-  LinkedIn:'https://www.linkedin.com/in/periasamy-k-857866176',
-  Instgram:'https://www.instagram.com/p/B-eVjXXlrtr-18o3iLskl6o39PGSGmSO7N_oZY0/',
   image: Rathinaboopathi
 },
 {
@@ -115,7 +119,7 @@ const Data= {
   Position: 'Manufacturing pilot',
   Portfolio: 'Pre-Final Year, Mechnaical Engineering',
   LinkedIn:'https://www.linkedin.com/in/rakesh-m-j-606742222',
-  image: Rathinaboopathi
+  image: Rakesh
 },
 {
   Name: 'Saravana Kumar S',
@@ -131,7 +135,7 @@ const Data= {
   Portfolio: 'Pre-Final Year, Mechnaical Engineering',
   Instgram:'https://www.instagram.com/_ig_abi/',
   LinkedIn:'https://www.linkedin.com/in/pon-abishega-rajan-b-6137b4209/',
-  image: Rathinaboopathi
+  image: Abi
 },
 {
   Name: 'Akhil L',
@@ -147,7 +151,7 @@ const Data= {
   Portfolio: 'Pre-Final Year, Electronics and Communication Engineering',
   Instgram:'https://www.instagram.com/single_star_vikram_001/',
   LinkedIn:'https://www.linkedin.com/in/vikram-p-8aa01b17b',
-  image: Rathinaboopathi
+  image: Vikram
 },
 {
   Name: 'Dhanuja A',
@@ -176,7 +180,7 @@ const Data= {
 },
 {
   Name: 'Akshaya Raj S A',
-  Position: 'Electronics Pilot',
+  Position: 'Electronics & Programming Pilot',
   Portfolio: 'Pre-Final Year, Computer Science Engineering',
   Instgram:'https://www.instagram.com/akshaya_artfantasy/',
   LinkedIn:'https://www.linkedin.com/in/student-entrepreneur-4736b0211/',
