@@ -49,7 +49,7 @@
   width: 42ch;
   display: flex;
   gap: 1rem;
-  padding: 1rem 0.7rem;
+  padding: 1rem 01rem;
   justify-content: space-around;
   border-radius: 2rem;
   box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.2);
@@ -64,13 +64,14 @@
   width: 20ch;
   margin: auto;
   border-radius: 2rem;
-  /* box-shadow: 0px 0px 10px 1px; */
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
 }
 .team_wrapper{
   width: fit-content;
 }
 .content_outerwrapper{
   margin: 0px 6px;
+  width: 20ch;
   display: flex;
   flex-direction: column;
   justify-content: center;
