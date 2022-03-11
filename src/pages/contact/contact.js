@@ -30,14 +30,14 @@ const Contact = () => {
        <div className='Contact-wrapper1'>
         <h1 className="Contact_heading">Email</h1>
         <div className='content'>
-          <a  href="casgct@gmail.com" >casgct@gmail.com</a>
+          <p >casgct@gmail.com</p>
         </div>
        </div>
 
        <div className='Contact-wrapper1'>
         <h1 className="Contact_heading">Contact</h1>
         <div className='content'>
-          <a  href="+91 7373451115" >+91 7373-451-115</a>
+          <p>+91 7373-451-115</p>
         </div>
        </div>
       </div>
