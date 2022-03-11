@@ -24,24 +24,22 @@ const Contact = () => {
            <a  href="https://instagram.com/cas_gct?utm_medium=copy_link" >Instagram</a>
            <a  href="https://www.linkedin.com/company/centaurus-aerospace-society-gct" >LinkedIn</a>
          </div>
-      </div>
+        </div>
       </div>
       <div className='Contact_wrapper'>
-
-      <div className='Contact-wrapper1'>
+       <div className='Contact-wrapper1'>
         <h1 className="Contact_heading">Email</h1>
         <div className='content'>
           <a  href="casgct@gmail.com" >casgct@gmail.com</a>
         </div>
-      </div>
+       </div>
 
-      <div className='Contact-wrapper1'>
+       <div className='Contact-wrapper1'>
         <h1 className="Contact_heading">Contact</h1>
         <div className='content'>
           <a  href="+91 7373451115" >+91 7373-451-115</a>
         </div>
-      </div>
-
+       </div>
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 .Contact{
   text-align: left;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 2rem;
@@ -43,6 +43,7 @@
 }
 .Contact_wrapper{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
  align-items: flex-start;
 }
@@ -55,4 +56,14 @@
 .Contact-wrapper1{
   width: 50ch;
   align-items: flex-start;
+}
+@media screen and (max-width:1000px){
+  .Contact-wrapper1{
+    width: 40ch;
+  }
+}
+@media screen and (max-width:400px){
+  .Contact-wrapper1{
+    width: 30ch;
+  }
 }
