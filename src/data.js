@@ -29,13 +29,13 @@ const Data= {
       {
           Name: 'Tmt. S. Parimala Murugaveni',
           Position: 'Club Advisor',
-          Portfolio: 'Assosciate Professor, Mechaniacal Engineering',
+          Portfolio: 'Associate Professor, Mechaniacal Engineering',
           image: Parimala
       },
       {
         Name: 'Dr. S. Periyasamy',
         Position: 'Club Advisor',
-        Portfolio: 'Assosciate Professor, Mechaniacal Engineering',
+        Portfolio: 'Associate Professor, Mechaniacal Engineering',
         image: Periyasamy
     },
     {
@@ -55,7 +55,7 @@ const Data= {
     {
       Name: 'Periasamy K',
       Position: 'Mentor',
-      Portfolio: 'Final Year, Mechnaical Engineering',
+      Portfolio: 'Final Year, Mechanical Engineering',
       LinkedIn:'https://www.linkedin.com/in/periasamy-k-857866176',
       Instgram:'https://www.instagram.com/p/B-eVjXXlrtr-18o3iLskl6o39PGSGmSO7N_oZY0/',
       image: Periasamy
@@ -63,7 +63,7 @@ const Data= {
   {
     Name: 'Praveen V',
     Position: 'President',
-    Portfolio: 'Pre-Final Year, Mechnaical Engineering',
+    Portfolio: 'Pre-Final Year, Mechanical Engineering',
     LinkedIn:'https://www.linkedin.com/in/periasamy-k-857866176',
     Instgram:'https://www.instagram.com/praveen_pradheip/',
     image: Praveen
@@ -71,7 +71,7 @@ const Data= {
 {
   Name: 'Mahaveer Sachin M',
   Position: 'Vice President',
-  Portfolio: 'Pre-Final Year, Mechnaical Engineering',
+  Portfolio: 'Pre-Final Year, Mechanical Engineering',
   Instgram:'https://instagram.com/_ms2603_?utm_medium=copy_link',
   LinkedIn:'https://www.linkedin.com/in/mahaveer-sachin-m-376677193',
   image: Mahaveersachin
@@ -79,7 +79,7 @@ const Data= {
 {
   Name: 'Nithish Kumar S',
   Position: 'Secretary',
-  Portfolio: 'Pre-Final Year, Mechnaical Engineering',
+  Portfolio: 'Pre-Final Year, Mechanical Engineering',
   Instgram:'https://instagram.com/sea_.king_?utm_medium=copy_link',
   LinkedIn:'https://www.linkedin.com/in/nithish-kumar-s-968b231bb',
   image: Nithish
@@ -96,7 +96,7 @@ const Data= {
 {
   Name: 'Sreeejith Ravi',
   Position: 'Project Pilot',
-  Portfolio: 'Pre-Final Year, Mechnaical Engineering',
+  Portfolio: 'Pre-Final Year, Mechanical Engineering',
   LinkedIn:'https://www.linkedin.com/in/sreejith-ravi/',
   Instgram:'https://www.instagram.com/balaravi44/',
   image: Sreejith
@@ -104,27 +104,27 @@ const Data= {
 {
   Name: 'Mohamed Yassir',
   Position: 'Manufacturing pilot',
-  Portfolio: 'Pre-Final Year, Mechnaical Engineering',
+  Portfolio: 'Pre-Final Year, Mechanical Engineering',
   image: Rathinaboopathi
 },
 {
   Name: 'Sakthi Harish M',
   Position: 'Manufacturing pilot',
-  Portfolio: 'Pre-Final Year, Mechnaical Engineering',
+  Portfolio: 'Pre-Final Year, Mechanical Engineering',
   LinkedIn:'https://www.linkedin.com/in/sakthi-harish-a36901211',
   image: Sakthiharish
 },
 {
   Name: 'Rakesh M J',
   Position: 'Manufacturing pilot',
-  Portfolio: 'Pre-Final Year, Mechnaical Engineering',
+  Portfolio: 'Pre-Final Year, Mechanical Engineering',
   LinkedIn:'https://www.linkedin.com/in/rakesh-m-j-606742222',
   image: Rakesh
 },
 {
   Name: 'Saravana Kumar S',
   Position: 'Design pilot',
-  Portfolio: 'Pre-Final Year, Mechnaical Engineering',
+  Portfolio: 'Pre-Final Year, Mechanical Engineering',
   Instgram:'https://www.instagram.com/stunningsaravana10428/',
   LinkedIn:'https://www.linkedin.com/in/saravana-kumar-s-30b410203',
   image: Saravana
@@ -132,7 +132,7 @@ const Data= {
 {
   Name: 'Pon Abishega Rajan B',
   Position: 'Design pilot',
-  Portfolio: 'Pre-Final Year, Mechnaical Engineering',
+  Portfolio: 'Pre-Final Year, Mechanical Engineering',
   Instgram:'https://www.instagram.com/_ig_abi/',
   LinkedIn:'https://www.linkedin.com/in/pon-abishega-rajan-b-6137b4209/',
   image: Abi
@@ -140,7 +140,7 @@ const Data= {
 {
   Name: 'Akhil L',
   Position: 'Design pilot',
-  Portfolio: 'Pre-Final Year, Mechnaical Engineering',
+  Portfolio: 'Pre-Final Year, Mechanical Engineering',
   Instgram:'https://instagram.com/akhil.lj?utm_medium=copy_link',
   LinkedIn:'https://www.linkedin.com/in/akhil-lj-2b5154234',
   image: Akhil
@@ -173,7 +173,7 @@ const Data= {
 {
   Name: 'Jaya Sakthi Adhavan',
   Position: 'Electronics Pilot',
-  Portfolio: 'Pre-Final Year, Electronics and Electricals Engineering',
+  Portfolio: 'Pre-Final Year, Electrical and Electronics Engineering',
   Instgram:'https://instagram.com/jsadhavan?utm_medium=copy_link',
   LinkedIn:'https://www.linkedin.com/in/jaya-shakthi-adhavan-s-929aa51b2',
   image: Sakthi
