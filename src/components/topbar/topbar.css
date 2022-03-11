@@ -32,11 +32,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 4rem;
 }
 .topbar_links{
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   margin-right: 2rem;
 }
 .topbar_div>img{
