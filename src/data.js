@@ -29,19 +29,19 @@ const Data= {
       {
           Name: 'Tmt. S. Parimala Murugaveni',
           Position: 'Club Advisor',
-          Portfolio: 'Associate Professor, Mechaniacal Engineering',
+          Portfolio: 'Associate Professor, Mechanical Engineering',
           image: Parimala
       },
       {
         Name: 'Dr. S. Periyasamy',
         Position: 'Club Advisor',
-        Portfolio: 'Associate Professor, Mechaniacal Engineering',
+        Portfolio: 'Associate Professor, Mechanical Engineering',
         image: Periyasamy
     },
     {
       Name: 'Thiru. R. Surendran',
       Position: 'Club Advisor',
-      Portfolio: 'Assistant Professor, Mechaniacal Engineering',
+      Portfolio: 'Assistant Professor, Mechanical Engineering',
       image: Surendran
   },
       {
@@ -170,7 +170,7 @@ const Data= {
   image: Sakthi
 },
 {
-  Name: 'Ganapriya K',
+  Name: 'Ganapriya S',
   Position: 'Electronics & Programming Pilot',
   Portfolio: 'Pre-Final Year, Computer Science Engineering',
   Instgram:'https://www.instagram.com/priya_kheersagar/',
