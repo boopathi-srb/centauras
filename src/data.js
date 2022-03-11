@@ -162,6 +162,14 @@ const Data= {
   image: Dhanuja
 },
 {
+  Name: 'Jaya Sakthi Adhavan',
+  Position: 'Electronics & Programming Pilot',
+  Portfolio: 'Pre-Final Year, Electrical and Electronics Engineering',
+  Instgram:'https://instagram.com/jsadhavan?utm_medium=copy_link',
+  LinkedIn:'https://www.linkedin.com/in/jaya-shakthi-adhavan-s-929aa51b2',
+  image: Sakthi
+},
+{
   Name: 'Ganapriya K',
   Position: 'Electronics Pilot',
   Portfolio: 'Pre-Final Year, Computer Science Engineering',
@@ -169,14 +177,6 @@ const Data= {
   LinkedIn: 'https://www.linkedin.com/in/ganapriyas/',
   Github:'https://github.com/ganapriyas',
   image: Ganapriya
-},
-{
-  Name: 'Jaya Sakthi Adhavan',
-  Position: 'Electronics Pilot',
-  Portfolio: 'Pre-Final Year, Electrical and Electronics Engineering',
-  Instgram:'https://instagram.com/jsadhavan?utm_medium=copy_link',
-  LinkedIn:'https://www.linkedin.com/in/jaya-shakthi-adhavan-s-929aa51b2',
-  image: Sakthi
 },
 {
   Name: 'Akshaya Raj S A',
