@@ -163,7 +163,7 @@ const Data= {
 },
 {
   Name: 'Jaya Sakthi Adhavan',
-  Position: 'Electronics & Programming Pilot',
+  Position: 'Electronics Pilot',
   Portfolio: 'Pre-Final Year, Electrical and Electronics Engineering',
   Instgram:'https://instagram.com/jsadhavan?utm_medium=copy_link',
   LinkedIn:'https://www.linkedin.com/in/jaya-shakthi-adhavan-s-929aa51b2',
@@ -171,7 +171,7 @@ const Data= {
 },
 {
   Name: 'Ganapriya K',
-  Position: 'Electronics Pilot',
+  Position: 'Electronics & Programming Pilot',
   Portfolio: 'Pre-Final Year, Computer Science Engineering',
   Instgram:'https://www.instagram.com/priya_kheersagar/',
   LinkedIn: 'https://www.linkedin.com/in/ganapriyas/',
