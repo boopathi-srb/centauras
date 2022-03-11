@@ -13,6 +13,11 @@ import Apply from './pages/apply/apply'
 import Applied from './pages/applied/applied';
 import Data from './data';
 import Scroll from './components/scroll/scroll';
+import Blogs from './pages/Resources/Blogs/blogs';
+import Books from './pages/Resources/books/books';
+import Playlist from './pages/Resources/playlists/playlist';
+import Webinar from './pages/Resources/webinars/webinar';
+import Workshop from './pages/Resources/workshops/workshop';
 
 
 class App extends Component {
@@ -33,7 +38,12 @@ class App extends Component {
          <Route path="/" element={<Home/>} exact></Route>
          <Route path="/Team" element={ <Team data={this.state.teamData}/>} exact></Route>
          <Route path="/Contact" element={ <Contact/>} exact></Route>
-         <Route path="/Resources" element={ <Resources/>} exact></Route>
+         <Route path="/Resources" element={ <Resources/>} exact> </Route>
+         <Route path="/Resources/Blogs" element={ <Blogs/>} exact="true"></Route>
+         <Route path="/Resources/Books" element={ <Books/>} exact="true"></Route>
+         <Route path="/Resources/Playlist" element={ <Playlist/>} exact="true"></Route>
+         <Route path="/Resources/Webinars" element={ <Webinar/>} exact="true"></Route>
+         <Route path="/Resources/Workshops" element={ <Workshop/>} exact="true"></Route>
          <Route path="/Apply" element={ <Apply/>} exact></Route>
          <Route path="/Applied" element={ <Applied/>} exact></Route>
          

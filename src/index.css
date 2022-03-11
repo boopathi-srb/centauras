@@ -14,7 +14,8 @@ code {
 .active{
   background: white;
   color: black !important;
-  width: 12ch;
+  width: 14ch;
+  font-weight: 700 !important;
   padding: 0.5rem 0.5rem 0rem 0rem;
   height: 100%;
   margin-top: 018%;

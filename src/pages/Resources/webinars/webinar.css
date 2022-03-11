@@ -1,0 +1,31 @@
+.webinar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.webinar>img{
+  width: 50vw;
+}
+.webinar h1{
+  position: relative;
+  width: fit-content;
+}
+.webinar h1::after{
+  content: " ";
+    display: inline-flex;
+    justify-content: center;
+    height: 5px;
+    width: 50%;
+    border-radius: 5%;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left:25%;
+    animation: animate 3s ease-in-out infinite;
+}
+@keyframes animate {
+  0%{transform:scale(0%)}
+  50%{transform: scale(100%);}
+  100%{transform: scale(0%);}
+}

@@ -7,6 +7,8 @@ import youtube from '../../icons/youtube-card.png'
 import './resources.css'
 import AOS from 'aos';
 import "aos/dist/aos.css"
+import { Outlet } from 'react-router';
+import { Link } from 'react-router-dom';
 
 function Resources() {
   AOS.init({
@@ -29,7 +31,7 @@ function Resources() {
            </h4>
          </div>
          <img src={blog} alt="blogs"/>
-         <a href="/">View..</a>
+         <Link to="/Resources/Blogs">View..</Link>
        </div>
        <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
@@ -41,7 +43,7 @@ function Resources() {
            </h4>
          </div>
          <img src={books} alt="books"/>
-         <a href="/">View..</a>
+         <Link to="/Resources/Books">View..</Link>
        </div>
        <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
@@ -53,7 +55,7 @@ function Resources() {
            </h4>
          </div>
          <img src={webinar} alt="webinar"/>
-         <a href="/">View..</a>
+         <Link to="/Resources/Webinars">View..</Link>
        </div>
        <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
@@ -65,7 +67,7 @@ function Resources() {
            </h4>
          </div>
          <img src={workshop} alt="workshop"/>
-         <a href="/">View..</a>
+         <Link to="/Resources/Workshops">View..</Link>
        </div>
        <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
@@ -77,9 +79,10 @@ function Resources() {
            </h4>
          </div>
          <img src={youtube} alt="YouTube"/>
-         <a href="/">View..</a>
+         <Link to="/Resources/Playlist">View..</Link>
        </div>
      </div>
+     <Outlet/>
   </div>;
 }
 
