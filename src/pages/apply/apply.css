@@ -99,7 +99,7 @@
   .form div input, select, textarea{
     width: 60vw;
   }
-  .form div:nth-child(10) textarea{
+  .form div:nth-child(11) textarea{
     width: 60vw;
   }
 }
