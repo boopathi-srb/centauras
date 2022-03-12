@@ -20,7 +20,7 @@ import Parimala from './team photos/PARIMALA MAM.jpg'
 import Periyasamy from './team photos/PERIYASAMY SIR.jpg'
 import Surendran from './team photos/SURENDRAN SIR.jpg'
 import Sreejith from './team photos/SREEJITH.jpg'
-
+import Yassir from './team photos/YASSIR.jpg'
 
 
 const Data= {
@@ -105,7 +105,7 @@ const Data= {
   Name: 'Mohamed Yassir',
   Position: 'Manufacturing pilot',
   Portfolio: 'Pre-Final Year, Mechanical Engineering',
-  image: Rathinaboopathi
+  image: Yassir
 },
 {
   Name: 'Sakthi Harish M',
