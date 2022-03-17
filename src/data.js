@@ -64,7 +64,6 @@ const Data= {
     Name: 'Praveen V',
     Position: 'President',
     Portfolio: 'Pre-Final Year, Mechanical Engineering',
-    LinkedIn:'https://www.linkedin.com/in/periasamy-k-857866176',
     Instgram:'https://www.instagram.com/praveen_pradheip/',
     image: Praveen
 },

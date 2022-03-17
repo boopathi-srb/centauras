@@ -1,16 +1,17 @@
 .footer{
   width: 100vw;
-  height: 50vw;
-  /* margin-bottom: 5%; */
+ height: max-content;
+  z-index: 90;
+  position: relative;
+  background-color: white;
+  /* border-top: 2px solid black; */
+}
+.footer-outerwrapper{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   height:max-content;
   justify-content: space-evenly;
-  z-index: 90;
-  position: relative;
-  background-color: white;
-  /* border-top: 2px solid black; */
 }
 .footer_wrapper1, .footer_wrapper2, .footer_wrapper3{
   border-radius: 10px;
