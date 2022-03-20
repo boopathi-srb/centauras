@@ -15,6 +15,7 @@
 }
 .footer-outerwrapper>p{
   width: fit-content;
+  padding: 1rem;
 }
 .footer_wrapper1, .footer_wrapper2, .footer_wrapper3{
   border-radius: 10px;

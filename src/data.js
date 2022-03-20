@@ -19,7 +19,6 @@ import Vikram from './team photos/VIKRAM.jpg'
 import Parimala from './team photos/PARIMALA MAM.jpg'
 import Periyasamy from './team photos/PERIYASAMY SIR.jpg'
 import Surendran from './team photos/SURENDRAN SIR.jpg'
-import Sreejith from './team photos/SREEJITH.jpg'
 import Yassir from './team photos/YASSIR.jpg'
 
 
@@ -92,13 +91,14 @@ const Data= {
   image: Sujitha
 
 },
+
 {
-  Name: 'Sreejith Ravi',
-  Position: 'Project Pilot',
+  Name: 'Saravana Kumar S',
+  Position: 'Project pilot',
   Portfolio: 'Pre-Final Year, Mechanical Engineering',
-  LinkedIn:'https://www.linkedin.com/in/sreejith-ravi/',
-  Instgram:'https://www.instagram.com/balaravi44/',
-  image: Sreejith
+  Instgram:'https://www.instagram.com/stunningsaravana10428/',
+  LinkedIn:'https://www.linkedin.com/in/saravana-kumar-s-30b410203',
+  image: Saravana
 },
 {
   Name: 'Mohamed Yassir',
@@ -119,14 +119,6 @@ const Data= {
   Portfolio: 'Pre-Final Year, Mechanical Engineering',
   LinkedIn:'https://www.linkedin.com/in/rakesh-m-j-606742222',
   image: Rakesh
-},
-{
-  Name: 'Saravana Kumar S',
-  Position: 'Design pilot',
-  Portfolio: 'Pre-Final Year, Mechanical Engineering',
-  Instgram:'https://www.instagram.com/stunningsaravana10428/',
-  LinkedIn:'https://www.linkedin.com/in/saravana-kumar-s-30b410203',
-  image: Saravana
 },
 {
   Name: 'Pon Abishega Rajan B',

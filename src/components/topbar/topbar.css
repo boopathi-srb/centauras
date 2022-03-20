@@ -77,6 +77,10 @@
     margin-left: 2vw;
     overflow-y: visible;
   }
+  
+.logo_wrapper>img{
+  width: 40px;
+}
   .topbar_div>a {
     display: inline-flex;
     justify-content: space-between;
