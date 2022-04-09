@@ -15,7 +15,7 @@ import Data from './data';
 import Scroll from './components/scroll/scroll';
 import Blogs from './pages/Resources/Blogs/blogs';
 import Books from './pages/Resources/books/books';
-import Webinar from './pages/Resources/webinars/webinar';
+import Seminar from './pages/Resources/Seminars/Seminar';
 import Workshop from './pages/Resources/workshops/workshop';
 import Events from './pages/Resources/events/events';
 
@@ -42,7 +42,7 @@ class App extends Component {
          <Route path="/Resources/Blogs" element={ <Blogs/>} exact="true"></Route>
          <Route path="/Resources/Books" element={ <Books/>} exact="true"></Route>
          <Route path="/Resources/Events" element={ <Events data={this.state.teamData}/>} exact="true"></Route>
-         <Route path="/Resources/Webinars" element={ <Webinar/>} exact="true"></Route>
+         <Route path="/Resources/Seminars" element={ <Seminar/>} exact="true"></Route>
          <Route path="/Resources/Workshops" element={ <Workshop/>} exact="true"></Route>
          <Route path="/Apply" element={ <Apply/>} exact></Route>
          <Route path="/Applied" element={ <Applied/>} exact></Route>

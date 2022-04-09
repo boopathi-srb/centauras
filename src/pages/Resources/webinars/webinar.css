@@ -1,17 +1,17 @@
-.webinar{
+.Seminar{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.webinar>img{
+.Seminar>img{
   width: 50vw;
 }
-.webinar h1{
+.Seminar h1{
   position: relative;
   width: fit-content;
 }
-.webinar h1::after{
+.Seminar h1::after{
   content: " ";
     display: inline-flex;
     justify-content: center;
