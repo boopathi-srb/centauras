@@ -21,6 +21,19 @@ function Resources() {
         <h1 className="resource-heading" data-aos="zoom-in" data-aos-once="true">CAS' Resources</h1>
      </div>
      <div className="card-wrapper">
+     <div className="card" data-aos="zoom-in"data-aos-once="true">
+         <div className="title-wrapper">
+           <h2>
+             CAS-Events
+           </h2>
+           <h4>
+             Events conducted by members of CAS. 
+           </h4>
+         </div>
+         <img src={youtube} alt="YouTube"/>
+         <Link to="/Resources/Events">View..</Link>
+       </div>
+
        <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
            <h2>
@@ -69,18 +82,7 @@ function Resources() {
          <img src={workshop} alt="workshop"/>
          <Link to="/Resources/Workshops">View..</Link>
        </div>
-       <div className="card" data-aos="zoom-in"data-aos-once="true">
-         <div className="title-wrapper">
-           <h2>
-             CAS-Playlists
-           </h2>
-           <h4>
-             YouTube playlists suggested by members of CAS. 
-           </h4>
-         </div>
-         <img src={youtube} alt="YouTube"/>
-         <Link to="/Resources/Playlist">View..</Link>
-       </div>
+       
      </div>
      <Outlet/>
   </div>;

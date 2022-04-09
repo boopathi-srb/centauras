@@ -22,6 +22,10 @@ import Surendran from './team photos/SURENDRAN SIR.jpg'
 import Yassir from './team photos/YASSIR.jpg'
 
 
+
+import doyouknow from './Posters/do you know.jpeg'
+
+
 const Data= {
   
   team: [
@@ -197,5 +201,17 @@ const Data= {
 },
      
   ],
+
+
+  events:[
+    {
+      Eventname:'Do you know?',
+      Description:'An offline event to talk about drone tech with students of GCT.',
+      Poster: doyouknow ,
+      Insta:'https://www.instagram.com/p/CbnH-gSp3p2/?igshid=YmMyMTA2M2Y=',
+      LinkedIn:''
+    }
+  ]
 }
+
 export default Data
