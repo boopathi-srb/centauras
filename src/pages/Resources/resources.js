@@ -1,7 +1,7 @@
 import React from 'react';
 import blog from '../../icons/blog-card.png'
 import books from '../../icons/books-card.png'
-import webinar from '../../icons/webinar-card.png'
+import Seminar from '../../icons/Seminar-card.png'
 import workshop from '../../icons/workshops-card.png'
 import youtube from '../../icons/youtube-card.png'
 import './resources.css'
@@ -61,14 +61,14 @@ function Resources() {
        <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
            <h2>
-             CAS-Webinars
+             CAS-Seminars
            </h2>
            <h4>
-             Series of webinars conducted on by members of CAS. 
+             Series of Seminars conducted by members of CAS. 
            </h4>
          </div>
-         <img src={webinar} alt="webinar"/>
-         <Link to="/Resources/Webinars">View..</Link>
+         <img src={Seminar} alt="Seminar"/>
+         <Link to="/Resources/Seminars">View..</Link>
        </div>
        <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
