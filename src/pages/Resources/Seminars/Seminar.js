@@ -5,6 +5,7 @@ import instagram from '../../../icons/instagram.png'
 import AOS from 'aos';
 import "aos/dist/aos.css"
 
+window.addEventListener('load', AOS.refresh)
 
 function Seminar(props) {
   AOS.init({
