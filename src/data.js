@@ -24,7 +24,9 @@ import Yassir from './team photos/YASSIR.jpg'
 
 
 import doyouknow from './Posters/do you know.jpeg'
-
+import boa from './Posters/BOA.jpeg'
+import bocu from  './Posters/BOCU.jpeg'
+import boe from  './Posters/BOE.jpeg'
 
 const Data= {
   
@@ -208,9 +210,40 @@ const Data= {
       Eventname:'Do you know?',
       Description:'An offline event to talk about drone tech with students of GCT.',
       Poster: doyouknow ,
-      Insta:'https://www.instagram.com/p/CbnH-gSp3p2/?igshid=YmMyMTA2M2Y=',
+      Insta:'https://www.instagram.com/p/CcmMCdFJuZe/?utm_source=ig_web_copy_link',
       LinkedIn:''
     }
+  ],
+
+  seminars:[
+    {
+      Eventname:'Basics of Aerodynamics',
+      Description:'A seminar on Aerodynamics',
+      Speaker: 'Periasamy K',
+      SpeakerPosition:' CAS Mentor',
+      Poster:boa ,
+      Insta:'https://www.instagram.com/p/CcCEyTYJ8Y7/?utm_source=ig_web_copy_link',
+      LinkedIn:'https://www.linkedin.com/feed/update/urn:li:activity:6917700806527918080'
+    },
+    {
+      Eventname:'Basics of Coding on UAV',
+      Description:'A seminar on coding on UAV',
+      Speaker: 'Ganapriya S, Akshaya Raj S A',
+      SpeakerPosition:'Electronics and Programming Pilots',
+      Poster:bocu ,
+      Insta:'https://www.instagram.com/p/CcHpsfOpEj4/?utm_source=ig_web_copy_link',
+      LinkedIn:'https://www.linkedin.com/feed/update/urn:li:activity:6922205590878388224'
+    },
+    {
+      Eventname:'Basics of Electronics',
+      Description:'A seminar on Electronics used in UAVs',
+      Speaker: 'Vikram P, Dhanuja A',
+      SpeakerPosition:'Electronics Pilots',
+      Poster:boe ,
+      Insta:'',
+      LinkedIn:''
+    }
+
   ]
 }
 
