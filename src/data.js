@@ -240,8 +240,8 @@ const Data= {
       Speaker: 'Vikram P, Dhanuja A',
       SpeakerPosition:'Electronics Pilots',
       Poster:boe ,
-      Insta:'',
-      LinkedIn:''
+      Insta:'https://www.instagram.com/p/Cc0k3PxpbNH/?utm_source=ig_web_copy_link',
+      LinkedIn:'https://www.linkedin.com/feed/update/urn:li:activity:6924895190692372480'
     }
 
   ]
