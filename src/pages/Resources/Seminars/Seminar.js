@@ -24,10 +24,18 @@ function Seminar(props) {
            <h6>{item.Description}</h6>
          </div>
          <img key={pos} src={item.Poster} alt={item.Name}/>
-         <div className="event_content_wrapper">
-           <h3>{item.Speaker}</h3>
-           <h6>{item.SpeakerPosition}</h6>
+         <div className="event_content_wrapper1">
+           <div className='speakerName'>
+             <h4>{item.Speaker}</h4>
+             <h6>{item.SpeakerPosition}</h6>
+           </div>
+           <div className='speakerName'>
+             <h4>{item.Speaker1}</h4>
+             <h6>{item.Speaker1Position}</h6>
+           </div>
+           
          </div>
+         
          <div className="icon_wrapper">
            {item.LinkedIn && (<a href={item.LinkedIn}>
              <img key={pos} src={linkedin} alt="linkedIn_icon"/>

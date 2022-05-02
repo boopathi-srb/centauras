@@ -27,6 +27,7 @@ import doyouknow from './Posters/do you know.jpeg'
 import boa from './Posters/BOA.jpeg'
 import bocu from  './Posters/BOCU.jpeg'
 import boe from  './Posters/BOE.jpeg'
+import borp from  './Posters/BORP.jpeg'
 
 const Data= {
   
@@ -228,8 +229,10 @@ const Data= {
     {
       Eventname:'Basics of Coding on UAV',
       Description:'A seminar on coding on UAV',
-      Speaker: 'Ganapriya S, Akshaya Raj S A',
-      SpeakerPosition:'Electronics and Programming Pilots',
+      Speaker: 'Ganapriya S',
+      SpeakerPosition:'Electronics and Programming Pilot',
+      Speaker1: 'Akshaya Raj S A',
+      Speaker1Position:'Electronics and Programming Pilot',
       Poster:bocu ,
       Insta:'https://www.instagram.com/p/CcHpsfOpEj4/?utm_source=ig_web_copy_link',
       LinkedIn:'https://www.linkedin.com/feed/update/urn:li:activity:6922205590878388224'
@@ -237,11 +240,24 @@ const Data= {
     {
       Eventname:'Basics of Electronics',
       Description:'A seminar on Electronics used in UAVs',
-      Speaker: 'Vikram P, Dhanuja A',
-      SpeakerPosition:'Electronics Pilots',
+      Speaker: 'Vikram P',
+      SpeakerPosition:'Electronics Pilot',
+      Speaker1: 'Dhanuja A',
+      Speaker1Position:'Electronics Pilot',
       Poster:boe ,
       Insta:'https://www.instagram.com/p/Cc0k3PxpbNH/?utm_source=ig_web_copy_link',
       LinkedIn:'https://www.linkedin.com/feed/update/urn:li:activity:6924895190692372480'
+    },
+    {
+      Eventname:'Basics of Rocket Propulsion',
+      Description:'A seminar on Rocket Propulsion',
+      Speaker: 'Praveen V',
+      SpeakerPosition:'President',
+      Speaker1: 'Mahaveer Sachin M',
+      Speaker1Position:'Vice President',
+      Poster:borp ,
+      Insta:'https://www.instagram.com/p/CdD2OFoJDI6/?utm_source=ig_web_copy_link',
+      LinkedIn:''
     }
 
   ]
