@@ -222,6 +222,8 @@ const Data= {
       Description:'A seminar on Aerodynamics',
       Speaker: 'Periasamy K',
       SpeakerPosition:' CAS Mentor',
+      Speaker1: '',
+      Speaker1Position:'',
       Poster:boa ,
       Insta:'https://www.instagram.com/p/CcCEyTYJ8Y7/?utm_source=ig_web_copy_link',
       LinkedIn:'https://www.linkedin.com/feed/update/urn:li:activity:6917700806527918080'

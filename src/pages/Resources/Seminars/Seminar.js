@@ -26,13 +26,13 @@ function Seminar(props) {
          <img key={pos} src={item.Poster} alt={item.Name}/>
          <div className="event_content_wrapper1">
            <div className='speakerName'>
-             <h4>{item.Speaker}</h4>
-             <h6>{item.SpeakerPosition}</h6>
+             {item.Speaker &&(<h4>{item.Speaker}</h4>)}
+             {item.SpeakerPosition &&(<h6>{item.SpeakerPosition}</h6>)}
            </div>
-           <div className='speakerName'>
-             <h4>{item.Speaker1}</h4>
-             <h6>{item.Speaker1Position}</h6>
-           </div>
+           {item.Speaker1 &&(<div className='speakerName'>
+           {item.Speaker1 &&(<h4>{item.Speaker1}</h4>)}
+           {item.Speaker1Position &&(<h6>{item.Speaker1Position}</h6>)}
+           </div>)}
            
          </div>
          
