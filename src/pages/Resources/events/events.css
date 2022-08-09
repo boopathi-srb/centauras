@@ -50,6 +50,19 @@
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
   margin: auto;
+  height: 30ch;
+}
+.seminar_card{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 01rem;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  margin: auto;
   height: 50ch;
 }
 .image_wrapper{

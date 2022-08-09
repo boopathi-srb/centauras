@@ -16,7 +16,7 @@ function Seminar(props) {
   const Seminar=props.data.seminars.map((item,pos)=>{
     return(
       <div className="event_wrapper">
-      <div className="event_card" data-aos="zoom-in"data-aos-once="true">
+      <div className="seminar_card" data-aos="zoom-in"data-aos-once="true">
        
        <div className="event_content_outerwrapper">
          <div className="event_content_wrapper">

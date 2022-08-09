@@ -24,7 +24,7 @@ function Events(props) {
          <img key={pos} src={item.Poster} alt={item.Name}/>
          <div className="icon_wrapper">
            {item.LinkedIn && (<a href={item.LinkedIn}>
-             <img key={pos} src={linkedin} alt="linkedIn_icon"/>
+             <img className="poster" key={pos} src={linkedin} alt="linkedIn_icon"/>
            </a>)}
            {item.Insta && (<a href={item.Insta}>
              <img key={pos} src={instagram} alt="instagram_icon"/>

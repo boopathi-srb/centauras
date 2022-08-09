@@ -24,7 +24,7 @@ const Home=(props)=> {
         <div className="titleheading_wrapper"  >
           <div className="titleheading_wrapper1" data-aos="zoom-in"data-aos-once="true">
             <div className="titleheading_innerwrapper">
-             <h1>C</h1><h2>entauras</h2> 
+             <h1>C</h1><h2>entaurus</h2> 
             </div>
             <div className="titleheading_innerwrapper">
              <h1>A</h1><h2>erospace</h2> 
