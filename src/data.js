@@ -28,6 +28,7 @@ import boe from "./Posters/BOE.jpeg";
 import borp from "./Posters/BORP.jpeg";
 import frame from "./Posters/frame.png";
 import tech_expo from './Posters/tech-expo.jpg'
+import quiz from  './Posters/quiz.png'
 
 const Data = {
   team: [
@@ -221,6 +222,15 @@ const Data = {
         "https://www.instagram.com/p/Cddsyz9pDJd/?utm_source=ig_web_copy_link",
       LinkedIn:
         "https://www.linkedin.com/posts/centaurus-aerospace-society-gct_technology-tech-technologydevelopment-activity-6930554996157554688-JKp2?utm_source=linkedin_share&utm_medium=android_app",
+    },
+    {
+      Eventname: "Hence Quizified",
+      Description: "An Online event to  impart and enhance your  insight in aviation via answering the quiz in Instagram story",
+      Poster: quiz,
+      Insta:
+        "https://www.instagram.com/casgct",
+      LinkedIn:
+        "",
     },
   ],
 

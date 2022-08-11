@@ -50,7 +50,7 @@
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
   margin: auto;
-  height: 30ch;
+  height: 40ch;
 }
 .seminar_card{
   display: flex;
@@ -82,14 +82,15 @@
   width: 25ch;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  justify-items: stretch;
   align-items: center;
   gap: 1rem;
 }
 .event_content_wrapper{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .event_content_wrapper1{

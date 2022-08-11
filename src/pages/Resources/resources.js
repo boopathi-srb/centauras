@@ -24,6 +24,18 @@ function Resources() {
      <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
            <h2>
+             CAS-Seminars
+           </h2>
+           <h4>
+             Series of Seminars conducted by members of CAS. 
+           </h4>
+         </div>
+         <img src={Seminar} alt="Seminar"/>
+         <Link to="/Resources/Seminars">View..</Link>
+       </div>
+     <div className="card" data-aos="zoom-in"data-aos-once="true">
+         <div className="title-wrapper">
+           <h2>
              CAS-Events
            </h2>
            <h4>
@@ -58,18 +70,7 @@ function Resources() {
          <img src={books} alt="books"/>
          <Link to="/Resources/Books">View..</Link>
        </div>
-       <div className="card" data-aos="zoom-in"data-aos-once="true">
-         <div className="title-wrapper">
-           <h2>
-             CAS-Seminars
-           </h2>
-           <h4>
-             Series of Seminars conducted by members of CAS. 
-           </h4>
-         </div>
-         <img src={Seminar} alt="Seminar"/>
-         <Link to="/Resources/Seminars">View..</Link>
-       </div>
+      
        <div className="card" data-aos="zoom-in"data-aos-once="true">
          <div className="title-wrapper">
            <h2>
