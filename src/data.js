@@ -29,6 +29,7 @@ import borp from "./Posters/BORP.jpeg";
 import frame from "./Posters/frame.png";
 import tech_expo from './Posters/tech-expo.jpg'
 import quiz from  './Posters/quiz.png'
+import cwu from "./Posters/CWU.jpeg";
 
 const Data = {
   team: [
@@ -295,6 +296,17 @@ const Data = {
       Speaker1Position: "Vice President",
       Poster: frame,
       Insta: "https://www.instagram.com/p/Cdk_D1GPOfs/?igshid=MDJmNzVkMjY=",
+      LinkedIn: "",
+    },
+    {
+      Eventname: "Cosmos Within Us",
+      Description: "A seminar on Cosmic perception",
+      Speaker: "Praveen V",
+      SpeakerPosition: "President",
+      Speaker1: "Saravana Kumar S",
+      Speaker1Position: "Project Pilot",
+      Poster: cwu,
+      Insta: "https://www.instagram.com/p/ChOobz1piE8/?utm_source=ig_web_copy_link",
       LinkedIn: "",
     },
   ],
