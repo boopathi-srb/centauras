@@ -30,6 +30,10 @@ import frame from "./Posters/frame.png";
 import tech_expo from './Posters/tech-expo.jpg'
 import quiz from  './Posters/quiz.png'
 import cwu from "./Posters/CWU.jpeg";
+import fluidic_fun from "./Posters/fluidic_fun.jpeg";
+import sixth_gen from "./Posters/sixth_gen.jpeg";
+import hotspots from "./Posters/hotspots.jpeg"
+import dynamo from "./Posters/dynamo.jpeg";
 
 const Data = {
   team: [
@@ -207,13 +211,13 @@ const Data = {
 
   events: [
     {
-      Eventname: "Do you know?",
-      Description:
-        "An offline event to talk about drone tech with students of GCT.",
-      Poster: doyouknow,
+      Eventname: "Hence Quizified",
+      Description: "An Online event to  impart and enhance your  insight in aviation via answering the quiz in Instagram story",
+      Poster: quiz,
       Insta:
-        "https://www.instagram.com/p/CcmMCdFJuZe/?utm_source=ig_web_copy_link",
-      LinkedIn: "",
+        "https://www.instagram.com/casgct",
+      LinkedIn:
+        "",
     },
     {
       Eventname: "Tech Expo - 2022",
@@ -225,42 +229,96 @@ const Data = {
         "https://www.linkedin.com/posts/centaurus-aerospace-society-gct_technology-tech-technologydevelopment-activity-6930554996157554688-JKp2?utm_source=linkedin_share&utm_medium=android_app",
     },
     {
-      Eventname: "Hence Quizified",
-      Description: "An Online event to  impart and enhance your  insight in aviation via answering the quiz in Instagram story",
-      Poster: quiz,
+      Eventname: "Do you know?",
+      Description:
+        "An offline event to talk about drone tech with students of GCT.",
+      Poster: doyouknow,
       Insta:
-        "https://www.instagram.com/casgct",
-      LinkedIn:
-        "",
+        "https://www.instagram.com/p/CcmMCdFJuZe/?utm_source=ig_web_copy_link",
+      LinkedIn: "",
     },
+    
+   
   ],
 
   seminars: [
     {
-      Eventname: "Basics of Aerodynamics",
-      Description: "A seminar on Aerodynamics",
-      Speaker: "Periasamy K",
-      SpeakerPosition: " CAS Mentor",
+      Eventname: "Dynamo",
+      Description: "A seminar on Turbines",
+      Speaker: "Bharath Kumar R",
+      SpeakerPosition: "Active Member, Mechanical('24)",
       Speaker1: "",
       Speaker1Position: "",
-      Poster: boa,
-      Insta:
-        "https://www.instagram.com/p/CcCEyTYJ8Y7/?utm_source=ig_web_copy_link",
-      LinkedIn:
-        "https://www.linkedin.com/feed/update/urn:li:activity:6917700806527918080",
+      Poster: dynamo,
+      Insta: "",
+      LinkedIn: "",
     },
     {
-      Eventname: "Basics of Coding on UAV",
-      Description: "A seminar on coding on UAV",
-      Speaker: "Ganapriya S",
-      SpeakerPosition: "Electronics and Programming Pilot",
-      Speaker1: "Akshaya Raj S A",
-      Speaker1Position: "Electronics and Programming Pilot",
-      Poster: bocu,
+      Eventname: "Hotspots",
+      Description: "A seminar on Life of Stars and Sun spot",
+      Speaker: "Monissha M",
+      SpeakerPosition: "Active Member, IBT('24)",
+      Speaker1: "",
+      Speaker1Position: "",
+      Poster: hotspots,
+      Insta: "https://www.instagram.com/p/CiPuKsWpjlC/?igshid=NjQxMzA2Mjk=",
+      LinkedIn: "",
+    },
+    {
+      Eventname: "Sixth Gen",
+      Description: "A seminar on Artificial Intelligence",
+      Speaker: "Akshaya Raj S A",
+      SpeakerPosition: "Electronics and programming pilot",
+      Speaker1: "",
+      Speaker1Position: "",
+      Poster: sixth_gen,
+      Insta: "https://www.instagram.com/p/CiFfaFxLIbQ/?igshid=NjQxMzA2Mjk=",
+      LinkedIn: "",
+    },
+    {
+      Eventname: "Fluidic Fun",
+      Description: "A seminar on Fluid Mechanics",
+      Speaker: "Rakesh M J",
+      SpeakerPosition: "Manufacturing pilot",
+      Speaker1: "Sakthi Harish M",
+      Speaker1Position: "Manufacturing pilot",
+      Poster: fluidic_fun,
+      Insta: "https://www.instagram.com/p/Chwrn2rr3EF/?igshid=NjQxMzA2Mjk=",
+      LinkedIn: "",
+    },
+    {
+      Eventname: "Cosmos Within Us",
+      Description: "A seminar on Cosmic perception",
+      Speaker: "Praveen V",
+      SpeakerPosition: "President",
+      Speaker1: "Saravana Kumar S",
+      Speaker1Position: "Project Pilot",
+      Poster: cwu,
+      Insta: "https://www.instagram.com/p/ChOobz1piE8/?utm_source=ig_web_copy_link",
+      LinkedIn: "",
+    },
+    {
+      Eventname: "Design of Drone Frame",
+      Description: "A seminar on frame design",
+      Speaker: "",
+      SpeakerPosition: "",
+      Speaker1: "Mahaveer Sachin M",
+      Speaker1Position: "Vice President",
+      Poster: frame,
+      Insta: "https://www.instagram.com/p/Cdk_D1GPOfs/?igshid=MDJmNzVkMjY=",
+      LinkedIn: "",
+    },
+    {
+      Eventname: "Basics of Rocket Propulsion",
+      Description: "A seminar on Rocket Propulsion",
+      Speaker: "Praveen V",
+      SpeakerPosition: "President",
+      Speaker1: "Mahaveer Sachin M",
+      Speaker1Position: "Vice President",
+      Poster: borp,
       Insta:
-        "https://www.instagram.com/p/CcHpsfOpEj4/?utm_source=ig_web_copy_link",
-      LinkedIn:
-        "https://www.linkedin.com/feed/update/urn:li:activity:6922205590878388224",
+        "https://www.instagram.com/p/CdD2OFoJDI6/?utm_source=ig_web_copy_link",
+      LinkedIn: "",
     },
     {
       Eventname: "Basics of Electronics",
@@ -276,39 +334,32 @@ const Data = {
         "https://www.linkedin.com/feed/update/urn:li:activity:6924895190692372480",
     },
     {
-      Eventname: "Basics of Rocket Propulsion",
-      Description: "A seminar on Rocket Propulsion",
-      Speaker: "Praveen V",
-      SpeakerPosition: "President",
-      Speaker1: "Mahaveer Sachin M",
-      Speaker1Position: "Vice President",
-      Poster: borp,
+      Eventname: "Basics of Coding on UAV",
+      Description: "A seminar on coding on UAV",
+      Speaker: "Ganapriya S",
+      SpeakerPosition: "Electronics and Programming Pilot",
+      Speaker1: "Akshaya Raj S A",
+      Speaker1Position: "Electronics and Programming Pilot",
+      Poster: bocu,
       Insta:
-        "https://www.instagram.com/p/CdD2OFoJDI6/?utm_source=ig_web_copy_link",
-      LinkedIn: "",
+        "https://www.instagram.com/p/CcHpsfOpEj4/?utm_source=ig_web_copy_link",
+      LinkedIn:
+        "https://www.linkedin.com/feed/update/urn:li:activity:6922205590878388224",
     },
     {
-      Eventname: "Design of Drone Frame",
-      Description: "A seminar on frame design",
-      Speaker: "",
-      SpeakerPosition: "",
-      Speaker1: "Mahaveer Sachin M",
-      Speaker1Position: "Vice President",
-      Poster: frame,
-      Insta: "https://www.instagram.com/p/Cdk_D1GPOfs/?igshid=MDJmNzVkMjY=",
-      LinkedIn: "",
+      Eventname: "Basics of Aerodynamics",
+      Description: "A seminar on Aerodynamics",
+      Speaker: "Periasamy K",
+      SpeakerPosition: " CAS Mentor",
+      Speaker1: "",
+      Speaker1Position: "",
+      Poster: boa,
+      Insta:
+        "https://www.instagram.com/p/CcCEyTYJ8Y7/?utm_source=ig_web_copy_link",
+      LinkedIn:
+        "https://www.linkedin.com/feed/update/urn:li:activity:6917700806527918080",
     },
-    {
-      Eventname: "Cosmos Within Us",
-      Description: "A seminar on Cosmic perception",
-      Speaker: "Praveen V",
-      SpeakerPosition: "President",
-      Speaker1: "Saravana Kumar S",
-      Speaker1Position: "Project Pilot",
-      Poster: cwu,
-      Insta: "https://www.instagram.com/p/ChOobz1piE8/?utm_source=ig_web_copy_link",
-      LinkedIn: "",
-    },
+    
   ],
 };
 
