@@ -18,7 +18,7 @@ function Applied() {
       <h1>Registerd!</h1>
       <p>
         Your registration has been recorded.<br/>
-        We will contact you by Mail regarding your registration.<br/>Till then, please wait patiently🤗.
+        We will contact you by Mail regarding your Pass for the workshop.<br/>Till then, please wait patiently🤗.
       </p>
       <a href="/"><b>Return to Home</b></a>
      </div>

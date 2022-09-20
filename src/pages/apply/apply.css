@@ -10,8 +10,13 @@
   align-items: center;
 }
 .content{
-  margin-bottom: 4rem;
+
   font-size: 2rem;
+  text-align: center;
+}
+.note{
+  margin-bottom: 4rem;
+  text-align: left;
 }
 .Apply_heading{
   position: relative;
@@ -103,6 +108,10 @@
   .form{
     width: 60vw;
     /* padding: 1.5rem; */
+  }
+  .content{
+    font-size: 1.3rem;
+   
   }
   .form div input, select, textarea{
     width: 60vw;

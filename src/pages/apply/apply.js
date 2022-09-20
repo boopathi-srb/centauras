@@ -37,7 +37,17 @@ const Apply=(props)=> {
           <h1 className="Apply_heading">Launch Pad</h1>
           <img className='launchpad' src={launch_pad}></img>
           <p className='content'>
-         Fill the form below to register
+         Follow the instructions given and fill the form below to register
+          </p>
+          <p className='note'>
+            
+              <ol>
+                <li>Complete your Entry fee payment to buy your Laissez - passer (UPI number: +91 8667529628)</li>
+                <li>Note the TransactionID</li>
+                <li>Fill the form with correct details</li>
+              </ol>
+              
+            
           </p>
       </div>
          
@@ -119,7 +129,7 @@ const Apply=(props)=> {
             <input type="text"   placeholder='Enter your area of interest' name="data[Interest]"  />
           </div> */}
           <div>
-            <button  type='submit' >Apply</button>
+            <button  type='submit' disabled>Apply</button>
           </div>
         </form>
   </div>;
