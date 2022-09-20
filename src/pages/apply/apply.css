@@ -11,6 +11,7 @@
 }
 .content{
   margin-bottom: 4rem;
+  font-size: 2rem;
 }
 .Apply_heading{
   position: relative;
@@ -52,7 +53,7 @@
 .form div{
   display: grid;
 }
-.form div:nth-child(13) button{
+.form div:nth-child(10) button{
   width: 10ch;
   margin: auto;
   background-color: black;
@@ -64,7 +65,7 @@
   font-family: 'Jost', sans-serif;
   border-radius: 1rem;
 }
-.form div:nth-child(13) button:hover{
+.form div:nth-child(10) button:hover{
   cursor: pointer;
   transform: scale(1.2);
 }
@@ -87,7 +88,14 @@
   overflow: wrap;
   border-bottom: 1px solid black;
 }
-
+.desc{
+  font-size: 0.8rem;
+  margin-left: 0.4rem;
+}
+.launchpad{
+  width: 20vw;
+  border-radius: 2rem;
+}
 .selection:focus option:first-of-type {
   display: none;
 }
@@ -100,6 +108,9 @@
     width: 60vw;
   }
   .form div:nth-child(11) textarea{
+    width: 60vw;
+  }
+  .launchpad{
     width: 60vw;
   }
 }

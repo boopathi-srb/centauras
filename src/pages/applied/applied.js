@@ -15,10 +15,10 @@ function Applied() {
     <div className="outerwrapper">
       <div  data-aos="zoom-out" data-aos-once="true" className="wrapper">
       <img className="thumbsup" src={thumbsup} alt="applied"/>
-      <h1>Applied!</h1>
+      <h1>Registerd!</h1>
       <p>
-        Your application has been recorded.<br/>
-        We will contact you by Mail regarding membership.<br/>Till then, please wait patiently🤗.
+        Your registration has been recorded.<br/>
+        We will contact you by Mail regarding your registration.<br/>Till then, please wait patiently🤗.
       </p>
       <a href="/"><b>Return to Home</b></a>
      </div>
