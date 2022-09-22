@@ -129,7 +129,7 @@ const Apply=(props)=> {
             <input type="text"   placeholder='Enter your area of interest' name="data[Interest]"  />
           </div> */}
           <div>
-            <button  type='submit' disabled>Apply</button>
+            <button  type='submit'>Apply</button>
           </div>
         </form>
   </div>;
