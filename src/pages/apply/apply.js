@@ -3,13 +3,13 @@ import  './apply.css';
 import AOS from 'aos';
 import "aos/dist/aos.css"
 import launch_pad from "../../Posters/launch_pad.jpeg"
+import DotLoader from "./loader"
 
 // JS code for posting into google sheets
 
 window.onload=function(){
   var form = document.getElementById('sheetdb-form');
-  form.addEventListener("submit", e => {
-  
+  form.addEventListener("submit", e => {  
     e.preventDefault();
     fetch(form.action, {
         method : "POST",
@@ -18,7 +18,6 @@ window.onload=function(){
         response => response.json()
     ).then(() => {
       window.open( "/Applied", "_self");
-
     });
   
   });
@@ -32,6 +31,8 @@ const Apply=(props)=> {
     offset:100,
     delay:200
   });
+  // const[load, setload]=useState(false)
+ 
   return <div className="apply">
       <div className="apply_wrapper" data-aos="zoom-in" data-aos-once="true"  >
           <h1 className="Apply_heading">Launch Pad</h1>
@@ -50,6 +51,7 @@ const Apply=(props)=> {
             
           </p>
       </div>
+
          
          {/* Form area */}
 
@@ -57,31 +59,31 @@ const Apply=(props)=> {
          data-aos-once="true"  >
           <div>
             <label for="Name">Name<span className='desc'>(In Caps, with initial)</span></label>
-            <input type="text" placeholder='Enter your Full name' name="data[NAME]" />
+            <input required type="text" placeholder='Enter your Full name' name="data[Name]" />
           </div>
           <div>
             <label for="Roll number">Roll Number</label>
-            <input type="text" placeholder='Enter your Roll number' name="data[ROLL NO]"  />
+            <input required type="text" placeholder='Enter your Roll number' name="data[Roll no]"  />
           </div>
           <div>
             <label for="Email">Email - personal</label>
-            <input type="email" placeholder='Enter your personal Mail-Id' name="data[Email Address]" />
+            <input required type="email" placeholder='Enter your personal Mail-Id' name="data[Mail ID]" />
           </div>
           <div>
             <label for="Email">Email - GCT</label>
-            <input type="email" placeholder='Enter your GCT Mail-Id' name="data[GCT MAIL ID]" />
+            <input required type="email" placeholder='Enter your GCT Mail-Id' name="data[GCT mail ID]" />
           </div>
           <div>
             <label for="Number">Contact Number</label>
-            <input type="text" minLength="10" maxLength="10" pattern="[0-9]{10}" placeholder='Enter your Contact number' name="data[CONTACT NUMBER]"  />
+            <input required type="text" minLength="10" maxLength="10" pattern="[0-9]{10}" placeholder='Enter your Contact number' name="data[contact number]"  />
           </div>
           <div>
             <label for="Number">WhatsApp Number</label>
-            <input type="text" minLength="10" maxLength="10" pattern="[0-9]{10}" placeholder='Enter your WhatsApp number' name="data[WHATSAPP NUMBER]"  />
+            <input required type="text" minLength="10" maxLength="10" pattern="[0-9]{10}" placeholder='Enter your WhatsApp number' name="data[whatsapp number]"  />
           </div>
           <div>
            <label for="Year of study">Year of study</label>
-            <select className='selection' name="data[YEAR]" >
+            <select required className='selection' name="data[Year]" >
               <option disabled="disabled" selected>select the current year of study</option>
               <option>2nd Year</option>
               <option>3rd Year</option>
@@ -91,7 +93,7 @@ const Apply=(props)=> {
           <div>
           <label for="Department">Department</label>
             {/* <input type="text" maxLength="20" placeholder="Enter the departmentof study" name="data[Department]"></input> */}
-              <select className='selection' name="data[DEPARTMENT]" >
+              <select required className='selection' name="data[Department]" >
               <option disabled="disabled" selected>select the department</option>
               <option>CIVIL</option>
               <option>MECH</option>
@@ -106,7 +108,7 @@ const Apply=(props)=> {
           </div>
           <div>
           <label for="Instagram handle ">Transaction ID</label>
-            <input type="text" maxLength="100" placeholder="Enter the transaction ID of your payment" name="data[PAYMENT SCREENSHOT]"></input>
+            <input required type="text" maxLength="100" placeholder="Enter the transaction ID of your payment" name="data[transaction ID] "></input>
           </div>
           {/* <div>
             <label for="Date of birth">Date of Birth</label>
@@ -129,7 +131,7 @@ const Apply=(props)=> {
             <input type="text"   placeholder='Enter your area of interest' name="data[Interest]"  />
           </div> */}
           <div>
-            <button  type='submit'>Apply</button>
+            <button  type='submit' on>Apply</button>
           </div>
         </form>
   </div>;
