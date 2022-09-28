@@ -46,7 +46,7 @@ function About(props) {
       <div className="team_wrapper">
         <div className="contentwrapper"  >
           <h1 className="heading" data-aos="zoom-in" data-aos-once="true">Team CAS-GCT</h1>
-          <div className="content" >
+          <div className="desc" >
             <p data-aos="zoom-in" data-aos-once="true">
              The performance of any club depends on the team members.<br/>
              The team members below are the pilots of this CAS-GCT drone.

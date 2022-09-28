@@ -33,15 +33,16 @@
   50%{transform: scale(100%);}
   100%{transform: scale(0%);}
 }
-.content>p{
+.desc{
+  margin-bottom: 4rem;
+}
+.desc>p{
   margin: auto;
   margin-top: 2rem;
   align-items: center;
   text-align: center;
 }
-.content>p{
-  text-align: center;
-}
+
 
 /* card styles */
 
