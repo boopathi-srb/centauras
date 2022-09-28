@@ -14,14 +14,17 @@ const Contact = () => {
       <div className="Contact_wrapper">
         <div className="Contact-wrapper1" data-aos="zoom-in" data-aos-once="true">
           <h1 className="Contact_heading">Address</h1>
-          <p className="content">
-            Government College of Technology,Coimbatore-641013.
-          </p>
+          <div  className="content">
+           <p>
+             Government College of Technology,Coimbatore-641013.
+           </p> 
+          </div>
+          
         </div>
         <div className='Contact-wrapper1' data-aos="zoom-in" data-aos-once="true">
          <h1 className="Contact_heading">Social Media</h1>
          <div className='content'>
-           <a  href="https://instagram.com/cas_gct?utm_medium=copy_link" >Instagram</a>
+           <a  href="https://instagram.com/cas_gct?utm_medium=copy_link" >Instagram</a><br></br>
            <a  href="https://www.linkedin.com/company/centaurus-aerospace-society-gct" >LinkedIn</a>
          </div>
         </div>
@@ -30,7 +33,7 @@ const Contact = () => {
        <div className='Contact-wrapper1' data-aos="zoom-in" data-aos-once="true">
         <h1 className="Contact_heading">Email</h1>
         <div className='content'>
-          <p >casgct@gmail.com</p>
+          <p>casgct@gmail.com</p>
         </div>
        </div>
 

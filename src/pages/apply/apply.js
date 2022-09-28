@@ -1,6 +1,7 @@
 import React from 'react';
 import  './apply.css';
 import AOS from 'aos';
+import coming_soon from '../../icons/Coming soon.png'
 import "aos/dist/aos.css"
 import launch_pad from "../../Posters/launch_pad.jpeg"
 import DotLoader from "./loader"
@@ -34,7 +35,8 @@ const Apply=(props)=> {
   // const[load, setload]=useState(false)
  
   return <div className="apply">
-      <div className="apply_wrapper" data-aos="zoom-in" data-aos-once="true"  >
+      <img src={coming_soon} alt="coming soon" data-aos="zoom-in" data-aos-once="true"/>
+      {/* <div className="apply_wrapper" data-aos="zoom-in" data-aos-once="true"  >
           <h1 className="Apply_heading">Launch Pad</h1>
           <img className='launchpad' src={launch_pad}></img>
           <p className='content'>
@@ -50,12 +52,12 @@ const Apply=(props)=> {
               
             
           </p>
-      </div>
+      </div> */}
 
          
          {/* Form area */}
 
-        <form action="https://sheetdb.io/api/v1/6dj9s537etzgz" method="post" id="sheetdb-form" className='form'  autoComplete="on" data-aos="zoom-in"
+        {/* <form action="https://sheetdb.io/api/v1/6dj9s537etzgz" method="post" id="sheetdb-form" className='form'  autoComplete="on" data-aos="zoom-in"
          data-aos-once="true"  >
           <div>
             <label for="Name">Name<span className='desc'>(In Caps, with initial)</span></label>
@@ -92,7 +94,7 @@ const Apply=(props)=> {
           </div>
           <div>
           <label for="Department">Department</label>
-            {/* <input type="text" maxLength="20" placeholder="Enter the departmentof study" name="data[Department]"></input> */}
+            <input type="text" maxLength="20" placeholder="Enter the departmentof study" name="data[Department]"></input>
               <select required className='selection' name="data[Department]" >
               <option disabled="disabled" selected>select the department</option>
               <option>CIVIL</option>
@@ -109,7 +111,7 @@ const Apply=(props)=> {
           <div>
           <label for="Instagram handle ">Transaction ID</label>
             <input required type="text" maxLength="100" placeholder="Enter the transaction ID of your payment" name="data[transaction ID] "></input>
-          </div>
+          </div> */}
           {/* <div>
             <label for="Date of birth">Date of Birth</label>
             <input type="date" placeholder="Enter your DOB" name="data[Date of Birth]"/>
@@ -130,10 +132,10 @@ const Apply=(props)=> {
             <label for="Number">Area of interest</label>
             <input type="text"   placeholder='Enter your area of interest' name="data[Interest]"  />
           </div> */}
-          <div>
+          {/* <div>
             <button  type='submit' on>Apply</button>
           </div>
-        </form>
+        </form> */}
   </div>;
 }
 
