@@ -40,6 +40,11 @@
   50%{transform: scale(100%);}
   100%{transform: scale(0%);}
 }
+.already{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .form{
   display: flex;
   flex-direction: column;
@@ -58,7 +63,7 @@
 .form div{
   display: grid;
 }
-.form div:nth-child(10) button{
+.button{
   width: 10ch;
   margin: auto;
   background-color: black;
@@ -70,11 +75,11 @@
   font-family: 'Jost', sans-serif;
   border-radius: 1rem;
 }
-.form div:nth-child(10) button:hover{
+.button:hover{
   cursor: pointer;
   transform: scale(1.2);
 }
-.form div:nth-child(11) textarea{
+/* .form div:nth-child(11) textarea{
   width: 50vw;
   height: fit-content;
   border: none;
@@ -82,8 +87,8 @@
   border-bottom: 1px solid black;
   outline: none;
   resize: none;
-}
-.form div input, select{
+} */
+.form div input[type="text"], input[type="email"],input[type="password"], select{
   border: none;
   width: 50vw;
   margin-top: 1rem;

@@ -18,6 +18,7 @@ import Books from './pages/Resources/books/books';
 import Seminar from './pages/Resources/Seminars/Seminar';
 import Workshop from './pages/Resources/workshops/workshop';
 import Events from './pages/Resources/events/events';
+import Login from './pages/login/login';
 
 
 class App extends Component {
@@ -29,31 +30,55 @@ class App extends Component {
   return (
     <div className="App">
       <Router>
-      <header>
-        <Topbar/>
-      </header>
-      <div className="body">
-      <Routes>
-         
-         <Route path="/" element={<Home/>} exact></Route>
-         <Route path="/Team" element={ <Team data={this.state.teamData}/>} exact></Route>
-         <Route path="/Contact" element={ <Contact/>} exact></Route>
-         <Route path="/Resources" element={ <Resources/>} exact> </Route>
-         <Route path="/Resources/Blogs" element={ <Blogs/>} exact="true"></Route>
-         <Route path="/Resources/Books" element={ <Books/>} exact="true"></Route>
-         <Route path="/Resources/Events" element={ <Events data={this.state.teamData}/>} exact="true"></Route>
-         <Route path="/Resources/Seminars" element={ <Seminar data={this.state.teamData}/>} exact="true"></Route>
-         <Route path="/Resources/Workshops" element={ <Workshop/>} exact="true"></Route>
-         <Route path="/Apply" element={ <Apply/>} exact></Route>
-         <Route path="/Applied" element={ <Applied/>} exact></Route>
-         
-         
-       </Routes>
-       <Scroll/>
-      </div>
-      <footer className="footer">
-         <Footer/>
-      </footer>
+        <header>
+          <Topbar />
+        </header>
+        <div className="body">
+          <Routes>
+            <Route path="/" element={<Home />} exact></Route>
+            <Route
+              path="/Team"
+              element={<Team data={this.state.teamData} />}
+              exact
+            ></Route>
+            <Route path="/Contact" element={<Contact />} exact></Route>
+            <Route path="/Resources" element={<Resources />} exact>
+              {" "}
+            </Route>
+            <Route
+              path="/Resources/Blogs"
+              element={<Blogs />}
+              exact="true"
+            ></Route>
+            <Route
+              path="/Resources/Books"
+              element={<Books />}
+              exact="true"
+            ></Route>
+            <Route
+              path="/Resources/Events"
+              element={<Events data={this.state.teamData} />}
+              exact="true"
+            ></Route>
+            <Route
+              path="/Resources/Seminars"
+              element={<Seminar data={this.state.teamData} />}
+              exact="true"
+            ></Route>
+            <Route
+              path="/Resources/Workshops"
+              element={<Workshop />}
+              exact="true"
+            ></Route>
+            <Route path="/Apply" element={<Apply />} ></Route>
+            <Route path="/Applied" element={<Applied />} ></Route>
+            <Route path="/Signin" element={<Login />} ></Route>
+          </Routes>
+          <Scroll />
+        </div>
+        <footer className="footer">
+          <Footer />
+        </footer>
       </Router>
     </div>
   );
